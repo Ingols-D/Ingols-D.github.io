@@ -3,13 +3,14 @@
     border-box;}
     /*body rules here */
     body {
-        font-family: Verdana;
+        font-family: Tahoma, sans-serif;
         font-size: 16px;
+        color: rgb(92, 78, 78)
     }
     
     /*header rules here */
     header {
-        background-color: #17a8e4;
+        background-color: #e48417;
         padding: 1rem 2%;
     }
     header h1 {
@@ -18,28 +19,32 @@
     header h2 {
         margin: 0;
     }
+    header h3 {
+        margin: 0;
+    }
     
     /* navigation rules here */
-    nav {background-color: #111;}
+    nav {background-color: rgb(92, 78, 78);}
     nav ul {margin: 0; padding: 0;}
     nav li {list-style-type: none;}
-    nav li.active {background-color: #333;}
+    nav li.active {background-color: #e9a14e;}
     nav a {
         display: block;
-        padding:.8rem 0; /* 44 min height*/
+        padding:.08rem 0; /* 44 min height*/
         color: #eee;
         text-align: center;
         text-decoration: none;
     }
-    nav a:hover {background-color: #444}
+    nav a:hover {background-color: #e48417}
     
     /*main rules here*/
     main {
         padding: 1rem 2%;
         display: block;
     }
-    main h1{color: #17a8e4;}
-    
+    main h1,{color: #e48417;}
+    main h1, {color: #e9a14e;
+    padding: 0;}
     main figure img {width: 100%;}
     main figure{
         width: 100%;
@@ -47,11 +52,15 @@
     }
     
     main figcaption {text-align: center; font-size: .8rem; }
-    
+    div.news {
+        clear: both;
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+    }
     footer {
        text-align: center;
        padding: 1rem 2%;
-       background-color: #19a8e4; 
+       background-color: #e48417; 
     }
     
     
