@@ -42,8 +42,8 @@
         padding: 1rem 2%;
         display: block;
     }
-    main h1,{color: #e48417;}
-    main h1, {color: #e9a14e;
+    main h1{color: #e48417;}
+    main h2 {color: #e9a14e;
     padding: 0;}
     main figure img {width: 100%;}
     main figure{
