@@ -1,0 +1,32 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    header img {width: auto;}
+    header h1 {font-size: 4rem;}
+    header h2 {font-size: 3rem; padding-top: 1rem;}
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul {margin-left: 2%;}
+    nav ul li {float: left; width: 20%; padding-top: 1rem;}
+
+    nav ul li a{padding: .5rem 1rem;font-size: 1.25rem}
+
+
+/*----------- MAIN --------------*/
+main img {float:right; width: 50%;
+    margin-top: 0;padding-top: 0;
+    margin-left: 10px; width: 50%;}
+    main p {font-size: 1.5rem; padding-top: 0;}
+    main a {padding-bottom: 2rem;}
+    
+/*----------- FOOTER --------------*/
+    footer{margin-top: 2rem;float: bottom;}
+}
+ /* end of media query */
