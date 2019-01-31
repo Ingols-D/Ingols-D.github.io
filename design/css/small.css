@@ -67,6 +67,7 @@ main a {padding-bottom: 2rem;}
 
 /*----------- FOOTER --------------*/
 footer {
+    clear: both;
     float: bottom;
     bottom: 0;
     background-color: #ebe8f5;
