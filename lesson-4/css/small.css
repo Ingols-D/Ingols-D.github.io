@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- BODY --------------*/
 body {
-    font-size: 32px;
+    font-size: 16px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -17,9 +17,9 @@ header {
     padding: .5rem 2%;
     background-color: #10704e;
 }
-header img {float:left; margin-right: 10px; width: 120px;}
-header h1 {margin: 0; font-size: 5rem; color: #ffc300;text-align: center;}
-header h2 {margin: 0; font-size: 2.5rem; font-weight: normal; font-style: italic; color: #ffc300;text-align: center;}
+header img {float:left; margin-right: 5px; width: 120px;}
+header h1 {margin: 0; font-size: 3rem; color: #ffc300;text-align: center;}
+header h2 {margin: 0; font-size: 1.5rem; font-weight: normal; font-style: italic; color: #ffc300;text-align: center;}
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -39,11 +39,11 @@ nav ul {
 nav ul li a {
     display: block;
     margin: 0;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
     padding-left: 0;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
     color: #6b706d;
     text-align: center;
 }
@@ -63,14 +63,14 @@ main {
     min-height: 10rem;
     
    }
-main h1 {color: #10704e;font-size: 7rem;}
-main h2 {color: #10704e;font-size: 5.5rem;}
-main h3 {color: #10704e;font-size: 3.5rem;}
+main h1 {color: #10704e;font-size: 2.5rem;}
+main h2 {color: #10704e;font-size: 2rem;}
+main h3 {color: #10704e;font-size: 1.5rem;}
 main img {float:right; margin-left: 10px; width: 100%; padding-bottom: 1rem;}
 main a {padding-bottom: 2rem;}
 
 /*------------ASIDE_________________*/
-aside {background-color: #b5b8b6 ; font-size: 2.5rem; color:#ffc300;}
+/*aside {background-color: #b5b8b6 ; font-size: 2.5rem; color:#ffc300;}*/
 
 /*----------- FOOTER --------------*/
 footer {
@@ -78,7 +78,7 @@ footer {
     float: bottom;
     bottom: 0;
     background-color: #ffc300;
-    padding: .5rem 2%;
+    padding: .35rem 1%;
     text-align: center;
     color: #10704e;
 }
