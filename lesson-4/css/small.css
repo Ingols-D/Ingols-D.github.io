@@ -17,9 +17,9 @@ header {
     padding: .5rem 2%;
     background-color: #10704e;
 }
-header img {float:left; margin-right: 5px; width: 120px;}
-header h1 {margin: 0; font-size: 3rem; color: #ffc300;text-align: center;}
-header h2 {margin: 0; font-size: 1.5rem; font-weight: normal; font-style: italic; color: #ffc300;text-align: center;}
+header img {float:left; margin-right: 2px; width: 75px;}
+header h1 {margin: 0; font-size: 2rem; color: #ffc300;text-align: center;}
+header h2 {margin: 0; font-size: 1.25rem; font-weight: normal; font-style: italic; color: #ffc300;text-align: center;}
 
 /*----------- NAVIGATION --------------*/
 nav {
