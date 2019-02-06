@@ -14,7 +14,7 @@ body {
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
+    padding: .2rem 2%;
     background-color: #10704e;
 }
 header img {float:left; margin-right: 1px; width: 75px;background-color: #fff}
@@ -63,14 +63,19 @@ main {
     min-height: 10rem;
     
    }
-main h1 {color: #10704e;font-size: 2.5rem;}
-main h2 {color: #10704e;font-size: 2rem;}
-main h3 {color: #10704e;font-size: 1.5rem;}
-main img {float:right; margin-left: 10px; width: 100%; padding-bottom: 1rem;}
-main a {padding-bottom: 2rem;}
+main h1 {color: #10704e;font-size: 2.5rem; padding: 0}
+main h2 {color: #10704e;font-size: 1.7rem;}
+main h3 {color: #10704e;font-size: 1.3rem;}
+main img {width: 100%}
+/*main a {padding-bottom: 2rem;}*/
 
-/*------------ASIDE_________________*/
-/*aside {background-color: #b5b8b6 ; font-size: 2.5rem; color:#ffc300;}*/
+figure {
+    margin-left: 0px; width: 100%; padding-bottom: .5rem;}
+figcaption{
+    text-align: center; font-size: .8rem; font-style: italic
+}    
+
+
 
 /*----------- FOOTER --------------*/
 footer {
@@ -78,10 +83,16 @@ footer {
     float: bottom;
     bottom: 0;
     background-color: #ffc300;
-    padding: .35rem 1%;
-    text-align: center;
+    padding: 1%;
+    text-align: left;
     color: #10704e;
-}
+    }
+
+footer ul li{
+    text-align: left; 
+    display:inline;}
+
+
 
 
 
