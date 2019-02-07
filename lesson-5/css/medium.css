@@ -1,0 +1,48 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 560px){
+
+/*-----------BODY-------------*/
+
+/*----------HEADER-----------*/
+header img {width: auto;margin: 2rem;}
+header h1 {font-size: 4rem;padding-top: 2rem;}
+header h2 {font-size: 3rem; }
+
+
+
+/*-----------NAVIGATION----------*/
+nav li{float: left; width: 16%;}
+
+
+
+/*------------MAIN-----------*/
+main h1{font-size: 4rem;}
+main h2{font-size: 3rem;padding: 0;}
+main section {
+    display: block;
+    position: absolute;
+    top: 575px;
+    left: 50px;
+    border: solid .5em #ffc300;
+    padding: 0 2%;
+    font-size: 1.25rem;
+}
+main table {width: 100%;}
+main table, td, th {
+    border: 1px solid #145a32;
+}
+
+
+main th {
+    height: 56; 
+    font-size: 1.75rem;}
+
+main td {font-size: 1.25rem;text-align: center;}
+
+main article img {float:right;width: 45%;}
+
+/*------------FOOTER------------*/
+
+
+}
+/*end of media query*/
