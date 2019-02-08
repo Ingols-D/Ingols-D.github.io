@@ -18,14 +18,17 @@ nav li{float: left; width: 16%;}
 /*------------MAIN-----------*/
 main h1{font-size: 4rem;}
 main h2{font-size: 3rem;padding: 0;}
-main section {
+main .herodiv img {position: absolute;z-index: -1;}
+main .herodiv section {
     display: block;
-    position: absolute;
-    top: 505px;
-    left: 50px;
+    position: relative;
+    float: left;
+    top: 25px;
+    left: 25px;
     border: solid .5em #ffc300;
     padding: 0 2%;
     font-size: 1.25rem;
+    width: 200px;
 }
 main .table {
     display: flex; 
