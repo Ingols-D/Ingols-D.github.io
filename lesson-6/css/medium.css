@@ -1,0 +1,62 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 560px){
+
+/*-----------BODY-------------*/
+
+/*----------HEADER-----------*/
+header img {width: 150px;margin: 2rem;}
+header h1 {
+    font-size: 4rem;
+    padding-top: 2rem;
+}
+header h2 {font-size: 2rem; padding-bottom: 2rem;}
+
+
+
+/*-----------NAVIGATION----------*/
+nav li{float: left; width: 16%;}
+
+
+
+/*------------MAIN-----------*/
+main h1{font-size: 4rem; padding-top: 1.5rem;}
+main h2{font-size: 3rem;padding: 0;}
+main .hero {
+    margin: 0;
+    position: relative;
+}
+main figure.hero div {
+    display: block;
+    position: absolute;
+    float: left;
+    top: 25px;
+    left: 25px;
+    border: solid .5em #ffc300;
+    padding: 0 .5rem;
+    font-size: 1.25rem;
+    width: 200px;
+    background-color: rgba(255,255,255,0.5);
+}
+main .table {
+    display: flex; 
+    width: 100%;
+    border: none;}
+
+
+main .table th {
+    height: 56; 
+    font-size: 1.5rem;
+    color:#089002;}
+
+main td {font-size: 1.25rem;text-align: center;}
+
+main article img {float:right;width: 45%;}
+
+/*------------FOOTER------------*/
+footer {clear:both;}
+div.row {border-top: 8px solid #ffc300; }
+div.row section:nth-child(1) {width: 50%;float: left;}
+div.row section:nth-child(2) {width: 50%;float: left;}
+div.row section:nth-child(3) {clear: both;float: bottom;}
+}
+/*end of media query*/

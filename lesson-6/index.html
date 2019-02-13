@@ -38,7 +38,9 @@
     
 <!--NAVIGATION HERE-->
 <nav class="clearfix">
-    <ul>
+    <button onclick="toggleMenu()">&#9776;
+    </button>
+    <ul id="primaryNav" class="hide">
         <li><a href="home.html">Home</a></li>
         <li class="active"><a href="index.html">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
@@ -60,10 +62,11 @@
             <p>High: 31&deg;</p>
           </div> 
      </figure>
-     <h2>5 Day Forecast</h2>
-     <div class="table">
-     <table>
-   
+<br>
+    <div class="table">
+    <!--<h2>5 Day Forecast</h2>-->
+  <table>
+    <tr><h2>5 Day Forecast</h2></tr>
     <tr>
          <th>Day</th> 
          <th>Description</th>
