@@ -1,5 +1,5 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 560px){
+@media only screen and (min-width: 35rem){
 
 /*-----------BODY-------------*/
 
@@ -21,11 +21,11 @@ nav li{float: left; width: 16%;}
 /*------------MAIN-----------*/
 main h1{font-size: 4rem; padding-top: 1.5rem;}
 main h2{font-size: 3rem;padding: 0;}
-main .hero {
+main picture.hero {
     margin: 0;
     position: relative;
 }
-main figure.hero div {
+main picture.hero div {
     display: block;
     position: absolute;
     float: left;

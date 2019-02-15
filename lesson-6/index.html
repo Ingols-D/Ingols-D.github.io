@@ -53,15 +53,18 @@
 <!--CONTENT HERE-->
 <main>
     <h1>Preston</h1>
-    <figure class="hero">
-     <img src="images/preston.png" alt="Picture of Napoleon's Llama">
+    <picture class="hero">
+        <source srcset="images/prestonmedium.jpg" media="(min-width:500px)
+          and (max-width 799px)">
+        <source srcset="images/prestonlarge.jpg" media="(min-width:800px)">
+     <img src="images/prestonsmall.jpg" alt="Picture of Preston Idaho">
      <div>
             <h3>Current Conditions</h3>
             <p>Snow</p>
             <p>Low: 19&deg;</p>
             <p>High: 31&deg;</p>
           </div> 
-     </figure>
+    </picture>
 <br>
     <div class="table">
     <!--<h2>5 Day Forecast</h2>-->

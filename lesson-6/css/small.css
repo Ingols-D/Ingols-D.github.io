@@ -72,11 +72,11 @@ main {
     padding: 0 2%;
     min-height: 10rem;
        }
-main figure.hero {
+main picture.hero {
     width: 100%; 
     margin: 0%; 
     position: relative;}
-main figure.hero div {display: none;}
+main picture.hero div {display: none;}
 
 main h1 {color: #10704e;font-size: 2.5rem; padding: 0}
 main h2 {color: #10704e;font-size: 1.7rem;}
