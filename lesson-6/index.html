@@ -38,7 +38,7 @@
     
 <!--NAVIGATION HERE-->
 <nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776;
+      <button onclick ="toggleMenu()"> &#9776;
     </button>
     <ul id="primaryNav" class="hide">
         <li><a href="home.html">Home</a></li>
@@ -53,18 +53,17 @@
 <!--CONTENT HERE-->
 <main>
     <h1>Preston</h1>
-    <picture class="hero">
-        <source srcset="images/prestonmedium.jpg" media="(min-width:500px)
-          and (max-width 799px)">
-        <source srcset="images/prestonlarge.jpg" media="(min-width:800px)">
-     <img src="images/prestonsmall.jpg" alt="Picture of Preston Idaho">
+   <figure class="hero"> 
+        <source media="(min-width:500px)" srcset="images/prestonmedium.jpg">
+        <source media="(min-width:800px)" srcset="images/prestonlarge.jpg" >
+            <img src="images/prestonsmall.jpg" alt="Picture of Preston Idaho">
      <div>
             <h3>Current Conditions</h3>
             <p>Snow</p>
             <p>Low: 19&deg;</p>
             <p>High: 31&deg;</p>
           </div> 
-    </picture>
+  </figure>
 <br>
     <div class="table">
     <!--<h2>5 Day Forecast</h2>-->
@@ -139,15 +138,22 @@
             <h3>Email:</h3>
             <p>ForeverSummer@wheatley.com</p></section>
         <section>
-                <p>&copy; Denise Ingols&nbsp;&bull;Sat. 9 Feb. 2019</p>
-        </section>
+            &copy; Denise Ingols&nbsp;
+            <script>
+   var currentDate = new Date();
+   var month = currentDate.getMonth();
+   var day = currentDate.getDate();
+   var year = currentDate.getFullYear();
+   var fullDate = month + "/" + day + "/" + year;
+   document.write(fullDate);
+   </script>
+ 
+    </section>
     </div>
           
    
-        </footer>
-   
-    
-    
+</footer>
+     
     
     </body>
     </html>

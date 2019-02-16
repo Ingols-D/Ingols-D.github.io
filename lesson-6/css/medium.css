@@ -21,11 +21,11 @@ nav li{float: left; width: 16%;}
 /*------------MAIN-----------*/
 main h1{font-size: 4rem; padding-top: 1.5rem;}
 main h2{font-size: 3rem;padding: 0;}
-main picture.hero {
+main figure.hero {
     margin: 0;
     position: relative;
 }
-main picture.hero div {
+main figure.hero div {
     display: block;
     position: absolute;
     float: left;

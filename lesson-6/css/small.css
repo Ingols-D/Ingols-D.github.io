@@ -72,18 +72,18 @@ main {
     padding: 0 2%;
     min-height: 10rem;
        }
-main picture.hero {
+main figure.hero {
     width: 100%; 
     margin: 0%; 
     position: relative;}
-main picture.hero div {display: none;}
+main figure.hero div {display: none;}
 
 main h1 {color: #10704e;font-size: 2.5rem; padding: 0}
 main h2 {color: #10704e;font-size: 1.7rem;}
 main h3 {color: #10704e;font-size: 1.3rem; padding: 0}
 
 
-main img {
+main figure img {
     margin-left: 0px; width: 100%; padding-bottom: .5rem;}
 
 
@@ -101,6 +101,7 @@ div.row section:nth-child(3){
     text-align: center;
     height: 2rem;
 }
+
 
 /*footer {
     clear: both;
