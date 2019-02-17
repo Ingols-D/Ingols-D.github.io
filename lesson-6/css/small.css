@@ -29,7 +29,7 @@ header h2 {margin-top: 1rem; font-size: 1.25rem; font-weight: normal; font-style
 /*----------- NAVIGATION --------------*/
 nav button {
     margin: .2rem 2%;
-    background-color: rgba(255,195,0,0.8);
+    background-color: transparent;
     border: none;
     font-size: 1.6rem;
     color: rgb(72, 112, 88);
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: rgba(20,90,50,0.2);
+    background-color: rgba(72,112,88);
     color: #fff;
 }
 nav ul li a:hover {
@@ -69,7 +69,7 @@ nav ul.hide{display: none;}
 /*----------- MAIN --------------*/
  
 main {
-    padding: 0 2%;
+    padding: 0 1.5%;
     min-height: 10rem;
        }
 main figure.hero {
@@ -101,31 +101,6 @@ div.row section:nth-child(3){
     text-align: center;
     height: 2rem;
 }
-
-
-/*footer {
-    clear: both;
-    bottom: 0;
-    background-color: #ffc300;
-    padding-top: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: left;
-    color: #10704e;
-    }
-
-footer div {
-    clear: both;
-    background-color: #6b706d;
-    float: bottom;
-    width: 100%;
-    height: 3em;
-    text-align: center;
-    color:#ffc300;
-    padding-top: .2em;*/
-     
-    
-
 
 
 

@@ -23,6 +23,8 @@
   <link href="css/medium.css" rel="stylesheet">
         <!--enhance-desktop-->
   <link href="css/large.css" rel="stylesheet">
+
+  <script src="js/scripts.js"></script>
         
 </head>
 
@@ -38,7 +40,7 @@
     
 <!--NAVIGATION HERE-->
 <nav class="clearfix">
-      <button onclick ="toggleMenu()"> &#9776;
+    <button onclick="toggleMenu()">&#9776;
     </button>
     <ul id="primaryNav" class="hide">
         <li><a href="home.html">Home</a></li>
@@ -54,22 +56,21 @@
 <main>
     <h1>Preston</h1>
    <figure class="hero"> 
-        <source media="(min-width:500px)" srcset="images/prestonmedium.jpg">
-        <source media="(min-width:800px)" srcset="images/prestonlarge.jpg" >
-            <img src="images/prestonsmall.jpg" alt="Picture of Preston Idaho">
+       <img src="images/prestonoriginal.jpg" alt="preston" sizes="100vw"
+            srcset="images/prestonsmall.jpg 350w,
+            images/prestonmedium.jpg 800w,
+            images/prestonlarge.jpg 1100w,">
      <div>
             <h3>Current Conditions</h3>
             <p>Snow</p>
             <p>Low: 19&deg;</p>
             <p>High: 31&deg;</p>
           </div> 
-  </figure>
-<br>
+ </figure>
+ <h2>5 Day Forecast</h2>
     <div class="table">
-    <!--<h2>5 Day Forecast</h2>-->
-  <table>
-    <tr><h2>5 Day Forecast</h2></tr>
-    <tr>
+      <table>
+        <tr>
          <th>Day</th> 
          <th>Description</th>
          <th>High/Low</th>
@@ -141,7 +142,7 @@
             &copy; Denise Ingols&nbsp;
             <script>
    var currentDate = new Date();
-   var month = currentDate.getMonth();
+   var month = currentDate.getMonth()+1;
    var day = currentDate.getDate();
    var year = currentDate.getFullYear();
    var fullDate = month + "/" + day + "/" + year;
