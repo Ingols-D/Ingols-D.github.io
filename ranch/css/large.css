@@ -6,7 +6,12 @@ nav ul {padding-left: 2%;}
 nav li {width:auto;}
 nav a {padding: .5rem 1rem;}
 
-main figure {width: 48%;}
+main figure {
+    width: 350px;
+    transition: width 2s;}
+main figure:hover{
+        width 500px;
+    }
 
 div.news {column-count: 3;}
 
