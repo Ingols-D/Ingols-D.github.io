@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang = "en-us">
+<head>
+<meta charset="UTF-8">
+<title>Storm Watch</title>
+<!--Tell phone not to lie -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--This is my embeded font-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+
+ <!--Style Sheets-->
+  <link href="css/normalize.css" rel="stylesheet">
+        <!--phone-default-->
+  <link href="css/small.css" rel="stylesheet">
+        <!--enance-tablet-->
+  <link href="css/medium.css" rel="stylesheet">
+        <!--enhance-desktop-->
+  <link href="css/large.css" rel="stylesheet">
+
+  <script src = "js/scripts.js"></script>
+  
+</head>
+
+<body>
+<!--HEADER HERE-->
+ <header>
+    
+        <img src="images/whlogo.png" alt="logo">
+        <div>
+            <h1>Weathering Highs</h1>
+            <h2>Your local source for outside conditions</h2>
+        </div>
+    </header>
+        
+<!--NAVIGATION HERE-->
+   <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;
+        </button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="stormwatch.html">Storm Watch</a></li>
+            <li ><a href="gallery.html">Gallery</a></li>
+        </ul>
+</nav>
+
+<main>
+    <h1>Storm Watch</h1>
+<h3>Are you witnessing severe weather? We want to know about it!</h3>
+<form method="GET" action="thanks.html">
+ <fieldset>
+    <legend>Witness Information</legend>
+     <label class=top>Full Name*<input type="text" name="fname" placeholder="Pedro Sanchez" required pattern="[A-Za-z].{5,}" ></label>
+     <label class=top>Email*<input type="email" name="email" placeholder="email@server.com" required></label>
+     <label class=top>Phone Number*<input type="tel" name="phone" placeholder="2055551234"required></label>
+     <label class=top>ZipCode*<input type="number" name="zcode" placeholder="83263" required></label>
+ </fieldset>
+
+ <fieldset>
+     <legend>What Do You See</legend>
+      <label class="top">Storm Date<input type="date"name="date"></label>
+      <div>Where Are You?</div>
+      <label class="sbs"><input type="radio" name="region" value="preston">Preston</label>
+      <label class="sbs"><input type="radio" name="region" value="sodasprings">Soda Springs</label>
+      <label class="sbs"><input type="radio" name="region" value="fishhaven">Fish Haven</label>
+ 
+      <label class="top">Storm Type
+          <select name="stormType">
+              <option value="">Please Select &#9662;</option>
+           <option value="rain">Heavy Rain</option>
+           <option value="blizzard">Blizzard</option>
+           <option value="tornado">Funnel Cloud</option>
+           <option value="sharknado">Sharknado</option>
+           <option value="uplight">Upward Lightning</option>
+           <option value="brimstone">Brimstone</option>
+           <option value="locusts">Cricket Swarm</option>
+           <option value="fashion">Ugly Clothes</option>
+          </select>
+      </label>
+
+      <div>Storm Severity</div>
+      <label class="slider"><input type="range" name="range" list="tickmarks" min="1" max="5" value="3" id="range">
+        <datalist id="tickmarks">
+            <option value="1" label="1"></option>
+            <option value="3" label="3"></option>
+            <option value="5" label="5"></option>
+        </datalist>
+    </label>
+   
+
+ </fieldset>
+
+ <fieldset>
+    <legend>Because We Care</legend>
+    <div class="care">Are you in danger?</div>
+    <label class="sbs"><input type="radio" name="danger" value="yes">Yes, send help</label>
+    <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+    <label class="sbs"><input type="radio" name="danger" value="no">No, I'm cool</label>
+
+ </fieldset>
+
+ <fieldset>
+     <legend>Additonal Comments</legend>
+     <label class="top">Any thing else we should know?<textarea name="message"></textarea></label>
+ </fieldset>
+
+ <input type="submit" value="REPORT STORM" class="submitBtn">
+
+
+
+</form>
+
+
+</main>
+
+<footer>
+        <div class="row">
+            <section><h3>Address:</h3>
+             <p>Random Information 
+                 Center<br>34th and Vine<br>Preston, ID  83263</p></section>
+             
+             <section><h3>Phone:</h3>
+                 <p>(215) 555-0829</p>
+                 <h3>Email:</h3>
+                 <p>ForeverSummer@wheatley.com</p></section>
+             <section>
+                 &copy; Denise Ingols&nbsp;
+         <script>
+        var currentDate = new Date();
+        var month = currentDate.getMonth()+1;
+        var day = currentDate.getDate();
+        var year = currentDate.getFullYear();
+        var fullDate = month + "/" + day + "/" + year;
+        document.write(fullDate);
+        </script>
+      
+         </section>
+         </div>
+               
+        
+     </footer>
+</body>
+</html>

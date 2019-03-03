@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Weathering Highs">
+<meta name="author" content="Denise Ingols">
+
+<!--This start file built by Denise Ingols Milligan-->
+
+<title>Weathering Highs: Preston</title>
+
+<!--Tell phone not to lie -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--This is my embeded font-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+
+ <!--Style Sheets-->
+  <link href="css/normalize.css" rel="stylesheet">
+        <!--phone-default-->
+  <link href="css/small.css" rel="stylesheet">
+        <!--enance-tablet-->
+  <link href="css/medium.css" rel="stylesheet">
+        <!--enhance-desktop-->
+  <link href="css/large.css" rel="stylesheet">
+
+  <script src = "js/scripts.js"></script>
+  
+        
+</head>
+
+<body>
+<!--HEADER HERE-->
+    
+<header>
+    <img src="images/whlogo.png" alt="logo">
+    <div>
+        <h1>Weathering Highs</h1>
+        <h2>Your local source for outside conditions</h2>
+    </div>
+</header>
+    
+<!--NAVIGATION HERE-->
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;
+    </button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
+        <li class="active"><a href="index.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormwatch.html">Storm Watch</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+    
+<!--CONTENT HERE-->
+<main>
+    <h1>Preston</h1>
+   <figure class="hero"> 
+       <img src="images/prestonoriginal.jpg" alt="preston" sizes="100vw"
+            srcset="images/prestonsmall.jpg 350w,
+            images/prestonmedium.jpg 800w,
+            images/prestonlarge.jpg 1100w,">
+    <div>
+       <h3>Current Conditions:</h3>
+<table style="width:25%">
+  <tr>
+    <th>Weather:</th>
+    <td>Snow</td>
+  </tr>
+  <tr>
+    <th>Temperature:</th>
+    <td>31&deg;</td>
+  </tr>
+  <tr>
+    <th>Wind Speed:</th>
+    <td>9mph</td>
+  </tr>
+  <tr>
+    <th>Wind Chill:</th>
+      <td><script>
+        var tempF=31;
+        var speed=9;
+        var f = 35.74 + (0.6215 * tempF)-35.75 * Math.pow(speed, 0.16) + (0.4275 * tempF * (Math.pow(speed, 0.16)));
+        var windChill = f.toFixed(2)+"&deg;";
+          document.write(windChill); 
+          </script>
+     </td>
+       </tr>
+</table></div>
+ </figure>
+ <h2>5 Day Forecast</h2>
+    <div class="table">
+      <table>
+        <tr>
+         <th>Day</th> 
+         <th>Description</th>
+         <th>High/Low</th>
+         <th>Wind</th>
+      </tr>
+      <tr>
+          <td>Sunday</td>
+          <td>Snow</td>
+          <td>23&deg;/0&deg;</td>
+          <td>7 mph</td>
+      </tr>
+      <tr>
+           <td>Monday</td>
+           <td>Mostly Cloudy</td>
+           <td>19&deg;/1&deg;</td>
+           <td>9 mph</td>
+      </tr>
+       <tr>
+           <td>Tuesday</td>
+           <td>Cloudy</td>
+           <td>22&deg;/10&deg;</td>
+           <td>9 mph</td>
+        </tr>
+        <tr>
+           <td>Wednesday</td>
+           <td>Light Snow</td>
+           <td>31&deg;/21&deg;</td>
+           <td>6 mph</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Sunny</td>
+            <td>23&deg;/13&deg;</td>
+            <td>4 mph</td>
+        </tr>
+  </table>
+  </div>
+  <article>
+        <h2>This Day in History</h2>
+        
+        <img src="images/PedroNapoleon.png" alt="Pedro and Napoleon">
+    
+        <p>In 2004, the indie film, Napoleon Dynamite, screened at Sundance. It was quickly purchased
+        by Fox Searchlight and Parmount, then released less than six months later. ChapStick, llamas, 
+        and tater tots are just a few things that appear in Napoleon Dynamite, a cult film shot for a 
+        mere $400,000 that went on to gross $44.5 million. In 2002, Brigham Young University film 
+        student Jared Hess filmed a black-and-white short, Peluca, with his classmate Jon Heder. The 
+        film got accepted into the Slamdance Film Festival, which gave Hess the courage to adapt it 
+        into a feature. Hess used his real-life upbringing in Preston, Idaho—he had six brothers and 
+        his mom owned llamas—to form the basis of the movie, about a nerdy teenager named Napoleon (Heder) 
+        who encourages his friend Pedro (Efren Ramirez) to run for class president.
+    </p><br>
+  </article>
+   
+    </main>
+   
+<!--FOOTER HERE-->
+<footer>
+   <div class="row">
+       <section><h3>Address:</h3>
+        <p>Random Information 
+            Center<br>34th and Vine<br>Preston, ID  83263</p></section>
+        
+        <section><h3>Phone:</h3>
+            <p>(215) 555-0829</p>
+            <h3>Email:</h3>
+            <p>ForeverSummer@wheatley.com</p></section>
+        <section>
+            &copy; Denise Ingols&nbsp;
+    <script>
+   var currentDate = new Date();
+   var month = currentDate.getMonth()+1;
+   var day = currentDate.getDate();
+   var year = currentDate.getFullYear();
+   var fullDate = month + "/" + day + "/" + year;
+   document.write(fullDate);
+   </script>
+ 
+    </section>
+    </div>
+          
+   
+</footer>
+     
+    
+    </body>
+    </html>
+    
