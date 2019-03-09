@@ -57,6 +57,20 @@
 <!--CONTENT HERE-->
 <main>
     <h1>Home</h1>
+  <script>
+    var requestURL = "js/towns.json";
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function(){
+        var towns = request.response;
+        populateHeader (town)
+    }
+  </script>
+  
+
+
 
     </main>
    

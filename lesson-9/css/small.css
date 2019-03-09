@@ -193,9 +193,6 @@ div.row section:nth-child(3){
     height: 2rem;
 }
 
-form
-
-
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
