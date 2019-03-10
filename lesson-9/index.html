@@ -36,9 +36,9 @@
           if(hr.readyState == 4 && hr.status == 200) {
             var data = JSON.parse(hr.responseText);
             var results = document.getElementById("results");
-            //results.innerHTML = data.towns.name;
-            for(var obj in data){
-                results.innerHTML += "";
+            results.innerHTML = "";
+            for(var obj in data) {
+                results.innerHTML += data[obj].name;
 
             }
           }
@@ -105,7 +105,7 @@
    var day = currentDate.getDate();
    var year = currentDate.getFullYear();
    var fullDate = month + "/" + day + "/" + year;
-   document.createElement("fullDate");
+   document.createElement('fullDate');
    </script>
  
     </section>
