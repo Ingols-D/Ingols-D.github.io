@@ -30,7 +30,7 @@
   <script type="text/javascript">
     function ajax_get_json() {
       var hr=new XMLHttpRequest();
-      hr.open("GET", "towns.json", true);
+      hr.open("GET", "js/towns.json", true);
       hr.setRequestHeader("Content-type", "application/json", true);
       hr.onreadystatechange = function() {
           if(hr.readyState == 4 && hr.status == 200) {
