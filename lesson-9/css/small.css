@@ -181,8 +181,8 @@ form label.top input:required {
  }
  
 /*------------ HOME PAGE TOWN FACTS -----------------*/
-main section.townFacts {
-    display:grid;
+main .townFacts {
+    display: grid;
 }
 
 
