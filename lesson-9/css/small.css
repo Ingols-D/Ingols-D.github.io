@@ -189,44 +189,7 @@ form label.top input:required {
 }
 
 
-#townfacts article img {
-    width: 100%;
-    border-radius: 5px 5px 5% 5%;
-}
  
-#townfacts article {
-    width: 100%;
-    background-color: #b8d8d8;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5%;
- 
-}
- 
-#townfacts p:nth-child(2) {
-    color: #fe5f55;
-    font-size: 20px;
-  }
- 
-#townfacts p {
-    font-size: 15px;
-    padding: 2%;
-    text-align: center;
-    font-weight: bold;
-}
- 
-#townfacts ul {
-    margin-top: 0;
-}
- 
-#townfacts h2 {
-    font-size: 2rem;
-    letter-spacing: 2px;
-    margin: 10px;
-    text-align: center;
-    text-shadow: 2px 2px black;
-}
-
 
 
 
