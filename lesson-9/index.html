@@ -36,7 +36,7 @@
           if(hr.readyState == 4 && hr.status == 200) {
             var data = JSON.parse(hr.responseText);
             var results = document.getElementById("results");
-            results.innerHTML = data.name;
+            results.innerHTML = data.towns.name;
 
           }
       }
