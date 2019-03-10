@@ -34,11 +34,11 @@
       hr.setRequestHeader("Content-type", "application/json", true);
       hr.onreadystatechange = function() {
           if(hr.readyState == 4 && hr.status == 200) {
-            var data = JSON.parse(hr.responseText);
+            var towns = JSON.parse(hr.responseText);
             var results = document.getElementById("results");
             results.innerHTML = "";
-            for(var obj in data) {
-                results.innerHTML += data[obj].name;
+            for(var obj in towns) {
+                results.innerHTML += towns[obj].name;
 
             }
           }
