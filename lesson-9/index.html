@@ -26,6 +26,25 @@
 
   <script src = "js/scripts.js"></script>
   
+  <!--To Pull in stuff from JSON-->
+  <script type="text/javascript">
+    function ajax_get_json() {
+      var hr=new XMLHttpRequest();
+      hr.open("GET", "towns.json", true);
+      hr.setRequestHeader("Content-type", "application/json", true);
+      hr.onreadystatechange = function() {
+          if(hr.readyState == 4 && hr.status == 200) {
+            var data = JSON.parse(hr.responseText);
+            var results = document.getElementById("results");
+            results.innerHTML = data.name;
+
+          }
+      }
+      hr.send(null);
+      document.getElementById("results").innerHTML = "requesting..."
+    }
+          
+    </script>
         
 </head>
 
@@ -57,19 +76,9 @@
 <!--CONTENT HERE-->
 <main>
     <h1>Home</h1>
-  <script>
-    var requestURL = "js/towns.json";
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    request.onload = function(){
-        var towns = request.response;
-        populateHeader (town)
-    }
-  </script>
-  
-
+ 
+  <div id="results"></div>
+  <script type="text/javascript">ajax_get_json();</script>
 
 
     </main>

@@ -58,7 +58,7 @@ main {
     padding: 0 2%;
     min-height: 20rem;
 }
-
+main img {border: solid red;}
 
 /*----------- FOOTER --------------*/
 footer {
