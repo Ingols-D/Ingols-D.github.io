@@ -67,7 +67,7 @@
 <table style="width:25%">
   <tr>
     <th>Weather:</th>
-    <td>span id="weather"><img src="images/placeholder.png" alt="current weather" id="weather_icon"></span></td>
+    <td><span id="weather"><img src="images/placeholder.png" alt="current weather" id="weather_icon"></span></td>
   </tr>
   <tr>
     <th>Temperature: </th>
@@ -84,7 +84,7 @@
         var speed=9;
         var f = 35.74 + (0.6215 * tempF)-35.75 * Math.pow(speed, 0.16) + (0.4275 * tempF * (Math.pow(speed, 0.16)));
         var windChill = f.toFixed(2)+"&deg;";
-          document.getElementById(windChill).innerHTML; 
+          document.getElementById(windChill).innerHTML=windChill; 
           </script>
      </td>
        </tr>
@@ -169,7 +169,7 @@
    var day = currentDate.getDate();
    var year = currentDate.getFullYear();
    var fullDate = month + "/" + day + "/" + year;
-   document.getElementById(fullDate).innerHTML;
+   document.getElementById(fullDate).innerHTML=fullDate;
    </script>
  
     </section>
