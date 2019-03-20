@@ -9,8 +9,8 @@ weatherObject.onload = function(){
 
     document.getElementById('weather').innerHTML = weatherInfo.weather["0"].description;
 
-    var currentTemp = parseFloat(document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
-    var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
+    var currentTemp = parseFloat(document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp);
+    var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed);
 
   //  var iconcode = weatherInfo.weather[0].icon;
   //  var icon_path="//openweathermap.org/img/w/" +iconcode + ".png";
