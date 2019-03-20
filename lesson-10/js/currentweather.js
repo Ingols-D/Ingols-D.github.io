@@ -16,17 +16,18 @@ weatherObject.onload = function(){
     var icon_path="//openweathermap.org/img/w/" +iconcode + ".png";
     document.getElementById("weather_icon").src=icon_path;
    
-    function windChill ()
-    var { tempF, speed } = newFunction();
-        var f = 35.74 + (0.6215 * tempF)-35.75 * Math.pow(speed, 0.16) + (0.4275 * tempF * (Math.pow(speed, 0.16)));
-        var windChill = f.toFixed(2)+"&deg;";
-          document.getElementById(windChill).innerHTML;
+    var tempF = currentTemp;
+    var speed = windSpeed;
+    var f= windChill(tempF, speed);
 
-function newFunction() {
-        var tempF = currentTemp;
-        var speed = windSpeed;
-        return { tempF, speed };
-    }
-}
+    document.getElementById("outputDiv").innerHTML = f.toFixed(2);
+
+    function windChill (tempF, speed){
+       
+        var f = 35.74 + (0.6215 * tempF)-35.75 * Math.pow(speed, 0.16) + (0.4275 * tempF * (Math.pow(speed, 0.16)));
+        return f;
+
+
+    
+    }}
         
-//end of the function
