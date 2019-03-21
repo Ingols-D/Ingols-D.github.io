@@ -41,6 +41,6 @@ weatherObject.onload = function(){
       var forecastInfo = JSON.parse (forecastObject.responseText);
       console.log(forecastInfo);
 
-    document.getElementById('description1').innerHTML = forecastInfo.main.description;
+    var description1 = parseFloat(document.getElementById('description1').innerHTML = forecastInfo.main.description);
     }
 // end of FORECAST
