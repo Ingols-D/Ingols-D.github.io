@@ -1,3 +1,4 @@
+// CURRENT WEATHER SCRIPT
 var weatherObject = new XMLHttpRequest ();
 weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?zip=83263,us&appid=428ce573a70fb23421cf1bbd73ba6e08&units=imperial',true);
 
@@ -30,4 +31,15 @@ weatherObject.onload = function(){
 
     
     }}
-        
+    // end of CURRENT WEATHER
+
+    // 5 DAY FORCAST SCRIPT
+    var forecastObject = new XMLHttpRequest ();
+    forecastObject.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=428ce573a70fb23421cf1bbd73ba6e08',true);
+    
+    forecastObject.onload = function () {
+      var forecastInfo = JSON.parse (forecastObject.responseText);
+      console.log(forecastInfo);
+
+    }
+// end of FORECAST
