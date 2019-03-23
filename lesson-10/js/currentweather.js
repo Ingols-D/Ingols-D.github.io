@@ -13,10 +13,7 @@ weatherObject.onload = function(){
     var currentTemp = parseFloat(document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp);
     var windSpeed = parseFloat(document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed);
 
-  //  var iconcode = weatherInfo.weather[0].icon;
-  //  var icon_path="//openweathermap.org/img/w/" +iconcode + ".png";
-  //  document.getElementById("weather_icon").src=icon_path;
-   
+    
     var tempF = currentTemp;
     var speed = windSpeed;
     var f= windChill(tempF, speed);
@@ -32,15 +29,3 @@ weatherObject.onload = function(){
     
     }}
     // end of CURRENT WEATHER
-
-    // 5 DAY FORCAST SCRIPT
-    var forecastObject = new XMLHttpRequest ();
-    forecastObject.open ('GET','http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=428ce573a70fb23421cf1bbd73ba6e08',true);
-    
-    forecastObject.onload = function () {
-      var forecastInfo = JSON.parse (forecastObject.responseText);
-      console.log(forecastInfo);
-
-    var description1 = parseFloat(document.getElementById('description1').innerHTML = forecastInfo.main.description);
-    }
-// end of FORECAST
