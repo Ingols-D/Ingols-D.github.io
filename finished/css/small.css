@@ -96,7 +96,7 @@ main figure img {
 main .curcon {display:none;}
 
 main .fiveday {display: none;}
-
+main .fiveday h2 {text-align: center;}
 /*----------- FORM ------------------*/
 form {
     color: #10704e;
