@@ -58,40 +58,21 @@
 <main>
     <h1>Soda Springs</h1>
     <figure class="hero"> 
-        <img src="images/ssorig.jpg" alt="SodaSprings" sizes="100vw"
-             srcset="images/sssmall.jpg 350w,
-             images/ssmed.jpg 800w,
-             images/sslrg.jpg 1100w,">
-
-   <!--Hiding this for now
-       <div>
-       <h3>Current Conditions:</h3>
-<table style="width:25%">
-  <tr>
-    <th>Weather:</th>
-    <td>Snow</td>
-  </tr>
-  <tr>
-    <th>Temperature:</th>
-    <td>31&deg;</td>
-  </tr>
-  <tr>
-    <th>Wind Speed:</th>
-    <td>9mph</td>
-  </tr>
-  <tr>
-    <th>Wind Chill:</th>
-      <td><script>
-        var tempF=31;
-        var speed=9;
-        var f = 35.74 + (0.6215 * tempF)-35.75 * Math.pow(speed, 0.16) + (0.4275 * tempF * (Math.pow(speed, 0.16)));
-        var windChill = f.toFixed(2)+"&deg;";
-          document.write(windChill); 
-          </script>
-     </td>
-       </tr>
-</table></div>
- </figure> -->
+        <img src="images/ssorig.jpg" alt="SodaSprings" sizes="100vw">
+        <div class="curcon">
+          <h3>Current Conditions</h3>
+         <ul>
+         <li>Weather: <span id="weather"></span></li>
+         <li>Temperature: <span id="currentTemp">00</span>&deg;</li>
+         <li>Wind Speed: <span id="windSpeed">speed</span>MPH</li>
+         <li>Wind Chill: <span id="outputDiv"></span>&deg;</li>
+         </ul>
+       </div>
+    </figure>
+    
+    
+    <!--Hiding this for now
+       -->
  <h2>5 Day Forecast</h2>
     <div class="table">
       <table>
