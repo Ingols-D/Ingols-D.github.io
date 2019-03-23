@@ -91,14 +91,8 @@ main .curcon {
     border-radius: 5px;
 } 
 
-main .fiveday thead {
-    font-size: 1.7;
-    color: #10704e;
-    background-color: #ffc300;
-    font-weight: bold;
-}
 main .fiveday {
-    display:none;
+    display:block;
     width: 100%;
     border-spacing:2px;
     border-collapse:collapse;
@@ -106,6 +100,12 @@ main .fiveday {
     margin: 0 0 .2rem 1%;
     box-shadow: 10px 10px 18px #089002;
     
+}
+main .fiveday thead {
+    font-size: 1.7rem;
+    color: #10704e;
+    background-color: #ffc300;
+    font-weight: bold;
 }
 
 main .fiveday table td, table th {
