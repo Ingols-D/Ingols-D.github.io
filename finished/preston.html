@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Weathering Highs">
+<meta name="author" content="Denise Ingols">
+
+<!--This start file built by Denise Ingols Milligan-->
+
+<title>Weathering Highs: Preston</title>
+
+<!--Tell phone not to lie -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--This is my embeded font-->
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+
+ <!--Style Sheets-->
+  <link href="css/normalize.css" rel="stylesheet">
+        <!--phone-default-->
+  <link href="css/small.css" rel="stylesheet">
+        <!--enance-tablet-->
+  <link href="css/medium.css" rel="stylesheet">
+        <!--enhance-desktop-->
+  <link href="css/large.css" rel="stylesheet">
+
+  <script src = "js/scripts.js"></script>
+  
+        
+</head>
+
+<body>
+<!--HEADER HERE-->
+    
+<header>
+    <img src="images/whlogo.png" alt="logo">
+    <div>
+        <h1>Weathering Highs</h1>
+        <h2>Your local source for outside conditions</h2>
+    </div>
+</header>
+    
+<!--NAVIGATION HERE-->
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;
+    </button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormwatch.html">Storm Watch</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+    
+<!--CONTENT HERE-->
+<main class="clearfix">
+    <h1>Preston</h1>
+   <figure class="hero"> 
+       <img src="images/newprestonorig.png" alt="preston" sizes="100vw"
+            srcset="images/newprestonsmall.jpg 350w,
+            images/newprestonmed.jpg 800w,
+            images/newprestonlrg.jpg 1100w,">
+
+    <div class="curcon">
+       <h3>Current Conditions</h3>
+      <ul>
+      <li>Weather: <span id="weather"></span></li>
+      <li>Temperature: <span id="currentTemp">00</span>&deg;</li>
+      <li>Wind Speed: <span id="windSpeed">speed</span>MPH</li>
+      <li>Wind Chill: <span id="outputDiv"></span>&deg;</li>
+      </ul>
+    </div>
+ </figure>
+
+ <h2>5 Day Forecast</h2>
+ 
+ <table class="5day">
+          <tr>
+             <th>&nbsp;</th>
+             <th>Day 1</th>
+             <th>Day 2</th>
+             <th>Day 3</th>
+             <th>Day 4</th>
+             <th>Day 5</th>
+         </tr>
+            <tr>
+              <th>High Temp:</th>
+                <td><span id = "tempHi1">tempHi</span>&deg;</td>
+                <td><span id = "tempHi2">tempHi</span>&deg;</td>
+                <td><span id = "tempHi3">tempHi</span>&deg;</td>
+                <td><span id = "tempHi4">tempHi</span>&deg;</td>
+                <td><span id = "tempHi5">tempHi</span>&deg;</td>
+             </tr>
+           <tr>
+             <th>Low Temp:</th>
+               <td><span id = "tempLo1">tempLo</span>&deg;</td>
+               <td><span id = "tempLo2">tempLo</span>&deg;</td>
+               <td><span id = "tempLo3">tempLo</span>&deg;</td>
+               <td><span id = "tempLo4">tempLo</span>&deg;</td>
+               <td><span id = "tempLo5">tempLo</span>&deg;</td>
+             </tr>
+           <tr>
+             <th>Description:</th>
+               <td><span id = "description1">Desc</span></td>
+               <td><span id = "description2">Desc</span></td>
+               <td><span id = "description3">Desc</span></td>
+               <td><span id = "description4">Desc</span></td>
+               <td><span id = "description5">Desc</span></td>
+             </tr>
+           <tr>
+             <th>Wind Speed:</th>
+               <td><span id = "speed1">spd</span>MPH</td>
+               <td><span id = "speed2">spd</span>MPH</td>
+               <td><span id = "speed3">spd</span>MPH</td>
+               <td><span id = "speed4">spd</span>MPH</td>
+               <td><span id = "speed5">spd</span>MPH</td>
+             </tr>
+            
+        </table>
+  <article>
+        <h2>This Day in History</h2>
+        
+        <img src="images/PedroNapoleon.png" alt="Pedro and Napoleon">
+    
+        <p>In 2004, the indie film, Napoleon Dynamite, screened at Sundance. It was quickly purchased
+        by Fox Searchlight and Parmount, then released less than six months later. ChapStick, llamas, 
+        and tater tots are just a few things that appear in Napoleon Dynamite, a cult film shot for a 
+        mere $400,000 that went on to gross $44.5 million. In 2002, Brigham Young University film 
+        student Jared Hess filmed a black-and-white short, Peluca, with his classmate Jon Heder. The 
+        film got accepted into the Slamdance Film Festival, which gave Hess the courage to adapt it 
+        into a feature. Hess used his real-life upbringing in Preston, Idaho—he had six brothers and 
+        his mom owned llamas—to form the basis of the movie, about a nerdy teenager named Napoleon (Heder) 
+        who encourages his friend Pedro (Efren Ramirez) to run for class president.
+    </p><br>
+  </article>
+   
+    </main>
+   
+<!--FOOTER HERE-->
+<footer>
+   <div class="row">
+       <section><h3>Address:</h3>
+        <p>Random Information 
+            Center<br>34th and Vine<br>Preston, ID  83263</p></section>
+        
+        <section><h3>Phone:</h3>
+            <p>(215) 555-0829</p>
+            <h3>Email:</h3>
+            <p>ForeverSummer@wheatley.com</p></section>
+        <section>
+          &copy; Denise Ingols&nbsp; <span id="currentDate"></span>
+    
+ 
+    </section>
+    </div>
+          
+   
+</footer>
+  <!--Script to make the date work-->
+<script src = "js/currentdate.js"></script> 
+<script>myFunction()</script>
+<!--Current Weather script-->
+<script src="js/currentweather.js"></script>
+<!--5 Day forecast script-->
+<script src="js/fiveday.js"></script>
+
+    </body>
+    </html>
+    
