@@ -90,7 +90,10 @@ main h3 {color: #10704e;font-size: 1.3rem; padding: 0}
 
 
 main figure img {
-    margin-left: 0px; width: 100%; padding-bottom: .5rem;}
+    margin-left: 0px; 
+    width: 100%; 
+    height: auto;
+    padding-bottom: .5rem;}
 
 
 main .curcon {display:none;}
