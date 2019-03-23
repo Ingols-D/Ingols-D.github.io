@@ -93,28 +93,33 @@ main figure img {
     margin-left: 0px; width: 100%; padding-bottom: .5rem;}
 
 
-main .table {display:none;}
+main .curcon {display:none;}
 
-div.weatherGallery{
-    display: flex;
-    flex-wrap: wrap;
-   }
-
-div.weatherGallery figure {
-    flex-basis: 100%;
-    margin: 1% 3% 4% .5%;
-}
-
-div.weatherGallery figure img {
+table {
+    display:block;
     width: 100%;
-    margin-left: 1.5%;
-    margin-top: .2rem
-
+    border-spacing:2px;
+    border-collapse:collapse;
+    border-color:black;
+    margin: 0 0 .2rem 1%;
+    box-shadow: 10px 10px 18px #089002;
+    
 }
 
-div.weatherGallery figure figcaption {
-    margin-left: 1.5%;
-    margin-right: 0;
+table td, table th {
+        border: 1px solid #ddd;
+        width: 11%;
+        padding: 8px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #089002;
+  color: #ffc300;
 }
 /*----------- FORM ------------------*/
 form {

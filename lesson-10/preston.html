@@ -62,69 +62,63 @@
             srcset="images/prestonsmall.jpg 350w,
             images/prestonmedium.jpg 800w,
             images/prestonlarge.jpg 1100w,">
-    <div>
+            
+    <div class="curcon">
        <h3>Current Conditions:</h3>
-<table style="width:25%">
-  <tr>
-    <th>Weather:</th>
-    <td><span id="weather"></span></td>
-  </tr>
-  <tr>
-    <th>Temperature: </th>
-    <td><span id="currentTemp">00</span>&deg;</td>
-  </tr>
-  <tr>
-    <th>Wind Speed: </th>
-    <td><span id="windSpeed">speed</span>MPH</td>
-  </tr>
-  <tr>
-    <th>Wind Chill:</th>
-      <td><span id="outputDiv"></span>&deg;</td>
-       </tr>
-</table></div>
+      <ul>
+      <li>Weather:<span id="weather"></span></li>
+      <li>Temperature:<span id="currentTemp">00</span>&deg;</li>>
+      <li>>Wind Speed:<span id="windSpeed">speed</span>MPH</li>
+      <li>Wind Chill:<span id="outputDiv"></span>&deg;</li>
+      </ul>
+    </div>
  </figure>
 
  <h2>5 Day Forecast</h2>
-    <div class="table">
-      <table>
-        <tr>
-         <th>Day</th> 
-         <th>Description</th>
-         <th>High/Low</th>
-         <th>Wind</th>
-      </tr>
-      <tr>
-          <td>1</td>
-          <td class = "wd"><span id="description1"></span></td>
-          <td>23&deg;/0&deg;</td>
-          <td>7 mph</td>
-      </tr>
-      <tr>
-           <td>2</td>
-           <td class = "wd"><span id="description2"></span></td>
-           <td>19&deg;/1&deg;</td>
-           <td>9 mph</td>
-      </tr>
-       <tr>
-           <td>3</td>
-           <td class = "wd"><span id="description3"></span></td>
-           <td>22&deg;/10&deg;</td>
-           <td>9 mph</td>
-        </tr>
-        <tr>
-           <td>4</td>
-           <td class = "wd"><span id="description4"></span></td>
-           <td>31&deg;/21&deg;</td>
-           <td>6 mph</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td class = "wd"><span id="description5"></span></td>
-            <td>23&deg;/13&deg;</td>
-            <td>4 mph</td>
-        </tr>
-  </table>
-  </div>
+ <h1>5 Day Forecast</h1>
+ <table class="5day">
+          <tr>
+             <th>&nbsp;</th>
+             <th>Day 1</th>
+             <th>Day 2</th>
+             <th>Day 3</th>
+             <th>Day 4</th>
+             <th>Day 5</th>
+         </tr>
+            <tr>
+              <th>High Temp:</th>
+                <td><span id = "tempHi1">tempHi</span>&deg;</td>
+                <td><span id = "tempHi2">tempHi</span>&deg;</td>
+                <td><span id = "tempHi3">tempHi</span>&deg;</td>
+                <td><span id = "tempHi4">tempHi</span>&deg;</td>
+                <td><span id = "tempHi5">tempHi</span>&deg;</td>
+             </tr>
+           <tr>
+             <th>Low Temp:</th>
+               <td><span id = "tempLo1">tempLo</span>&deg;</td>
+               <td><span id = "tempLo2">tempLo</span>&deg;</td>
+               <td><span id = "tempLo3">tempLo</span>&deg;</td>
+               <td><span id = "tempLo4">tempLo</span>&deg;</td>
+               <td><span id = "tempLo5">tempLo</span>&deg;</td>
+             </tr>
+           <tr>
+             <th>Description:</th>
+               <td><span id = "description1">Desc</span></td>
+               <td><span id = "description2">Desc</span></td>
+               <td><span id = "description3">Desc</span></td>
+               <td><span id = "description4">Desc</span></td>
+               <td><span id = "description5">Desc</span></td>
+             </tr>
+           <tr>
+             <th>Wind Speed:</th>
+               <td><span id = "speed1">spd</span>MPH</td>
+               <td><span id = "speed2">spd</span>MPH</td>
+               <td><span id = "speed3">spd</span>MPH</td>
+               <td><span id = "speed4">spd</span>MPH</td>
+               <td><span id = "speed5">spd</span>MPH</td>
+             </tr>
+            
+        </table>
   <article>
         <h2>This Day in History</h2>
         
@@ -167,8 +161,11 @@
   <!--Script to make the date work-->
 <script src = "js/currentdate.js"></script> 
 <script>myFunction()</script>
+<!--Current Weather script-->
+<script src="js/currentweather.js"></script>
+<!--5 Day forecast script-->
+<script src="js/fiveday.js"></script>
 
-  <script src="js/currentweather.js"></script>
     </body>
     </html>
     
