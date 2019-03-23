@@ -90,6 +90,11 @@ main .curcon {
     border-radius: 5px;
 } 
 
+main .fiveday thead {
+    font-size: 1.5;
+    color: #10704e;
+    background-color: #ffc300;
+}
 main .fiveday {
     display:none;
     width: 100%;
