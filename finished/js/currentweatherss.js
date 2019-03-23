@@ -1,6 +1,6 @@
 // CURRENT WEATHER SCRIPT
 var weatherObject = new XMLHttpRequest ();
-weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?id=5607916,us&appid=428ce573a70fb23421cf1bbd73ba6e08&units=imperial',true);
+weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?id=5607916&appid=428ce573a70fb23421cf1bbd73ba6e08&units=imperial',true);
 
 weatherObject.send();
 
