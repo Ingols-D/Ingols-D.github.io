@@ -96,7 +96,7 @@ main figure img {
 main .curcon {display:none;}
 
 table {
-    display:block;
+    display:none;
     width: 100%;
     border-spacing:2px;
     border-collapse:collapse;
