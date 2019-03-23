@@ -70,57 +70,72 @@
        </div>
     </figure>
     
+    <div class="fiveday">
+      <table style="width:100%">
+         <thead>
+           <tr>
+             <td colspan="6" height="45">5 Day Forecast</td></tr></thead>
+             <tr>
+                  <th>&nbsp;</th>
+                  <th>Day 1</th>
+                  <th>Day 2</th>
+                  <th>Day 3</th>
+                  <th>Day 4</th>
+                  <th>Day 5</th>
+              </tr>
+                 <tr>
+                   <th>High Temp:</th>
+                     <td><span id = "tempHi1">tempHi</span>&deg;</td>
+                     <td><span id = "tempHi2">tempHi</span>&deg;</td>
+                     <td><span id = "tempHi3">tempHi</span>&deg;</td>
+                     <td><span id = "tempHi4">tempHi</span>&deg;</td>
+                     <td><span id = "tempHi5">tempHi</span>&deg;</td>
+                  </tr>
+                <tr>
+                  <th>Low Temp:</th>
+                    <td><span id = "tempLo1">tempLo</span>&deg;</td>
+                    <td><span id = "tempLo2">tempLo</span>&deg;</td>
+                    <td><span id = "tempLo3">tempLo</span>&deg;</td>
+                    <td><span id = "tempLo4">tempLo</span>&deg;</td>
+                    <td><span id = "tempLo5">tempLo</span>&deg;</td>
+                  </tr>
+                <tr>
+                  <th>Description:</th>
+                    <td><span id = "description1">Desc</span></td>
+                    <td><span id = "description2">Desc</span></td>
+                    <td><span id = "description3">Desc</span></td>
+                    <td><span id = "description4">Desc</span></td>
+                    <td><span id = "description5">Desc</span></td>
+                  </tr>
+                <tr>
+                  <th>Wind Speed:</th>
+                    <td><span id = "speed1">spd</span>MPH</td>
+                    <td><span id = "speed2">spd</span>MPH</td>
+                    <td><span id = "speed3">spd</span>MPH</td>
+                    <td><span id = "speed4">spd</span>MPH</td>
+                    <td><span id = "speed5">spd</span>MPH</td>
+                  </tr>
+                 
+             </table>
+           </div>
     
     <!--Hiding this for now
        -->
- <h2>5 Day Forecast</h2>
-    <div class="table">
-      <table>
-        <tr>
-         <th>Day</th> 
-         <th>Description</th>
-         <th>High/Low</th>
-         <th>Wind</th>
-      </tr>
-      <tr>
-          <td>Sunday</td>
-          <td>Snow</td>
-          <td>23&deg;/0&deg;</td>
-          <td>7 mph</td>
-      </tr>
-      <tr>
-           <td>Monday</td>
-           <td>Mostly Cloudy</td>
-           <td>19&deg;/1&deg;</td>
-           <td>9 mph</td>
-      </tr>
-       <tr>
-           <td>Tuesday</td>
-           <td>Cloudy</td>
-           <td>22&deg;/10&deg;</td>
-           <td>9 mph</td>
-        </tr>
-        <tr>
-           <td>Wednesday</td>
-           <td>Light Snow</td>
-           <td>31&deg;/21&deg;</td>
-           <td>6 mph</td>
-        </tr>
-        <tr>
-            <td>Sunday</td>
-            <td>Sunny</td>
-            <td>23&deg;/13&deg;</td>
-            <td>4 mph</td>
-        </tr>
-  </table>
-  </div>
+ 
   <article>
         <h2>Fun-fact</h2>
         
         <img src="images/kiddenise.png" alt="Denise as a kid">
     
         <p>I lived in this little town for a short time as a kid. In fact,
-        this is where I started elementary school!<p>
+        this is where I started elementary school! Before that our family lived in Livermore,
+        California. After joining the Church of Jesus Christ of Latter-day Saints some
+        good friends moved to Lava Hot Springs. Lava is another cute little Idaho town not
+        far from Soda Springs. In the autumn, our family went out to visit them. Both of my parents
+        had been born and raised in California and were so awed by the beautiful autumn colors
+        (not exactly something you find  in the "Golden State") that before the weekend was
+        over, my mom found us a house and my dad secured a job. By Halloween we were packed up
+        and made the move to Idaho. <p>
     </p><br>
   </article>
    
@@ -128,33 +143,31 @@
    
 <!--FOOTER HERE-->
 <footer>
-   <div class="row">
-       <section><h3>Address:</h3>
-        <p>Random Information 
-            Center<br>34th and Vine<br>Preston, ID  83263</p></section>
-        
-        <section><h3>Phone:</h3>
-            <p>(215) 555-0829</p>
-            <h3>Email:</h3>
-            <p>ForeverSummer@wheatley.com</p></section>
-        <section>
-            &copy; Denise Ingols&nbsp;
-    <script>
-   var currentDate = new Date();
-   var month = currentDate.getMonth()+1;
-   var day = currentDate.getDate();
-   var year = currentDate.getFullYear();
-   var fullDate = month + "/" + day + "/" + year;
-   document.write(fullDate);
-   </script>
- 
-    </section>
-    </div>
-          
+  <div class="row">
+      <section><h3>Address:</h3>
+       <p>Random Information 
+           Center<br>34th and Vine<br>Preston, ID  83263</p></section>
+       
+       <section><h3>Phone:</h3>
+           <p>(215) 555-0829</p>
+           <h3>Email:</h3>
+           <p>ForeverSummer@wheatley.com</p></section>
+       <section>
+         &copy; Denise Ingols&nbsp; <span id="currentDate"></span>
    
-</footer>
-     
-    
-    </body>
-    </html>
+
+   </section>
+   </div>  
+  </footer>
+
+     <!--Current Weather script-->
+<script src="js/currentweatherss.js"></script>
+     <!--5 Day forecast script-->
+<script src="js/fivedayss.js"></script>   
+    <!--Script to make the date work-->
+<script src = "js/currentdate.js"></script> 
+   
+</body>
+
+</html>
     
