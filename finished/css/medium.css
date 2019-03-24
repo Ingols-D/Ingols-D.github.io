@@ -137,8 +137,8 @@ main div.weatherGallery figure {
         flex-basis: 45%;
     }
 main div.weatherGallery figure image {
-    width: 100%;
-}
+    flex-basis: 46;}
+    
 main div.weatherGallery figcaption {font-size: 1.5rem;}
 
 /*------------FOOTER------------*/
