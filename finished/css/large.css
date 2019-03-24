@@ -30,7 +30,7 @@ header, footer, nav, main {max-width: 80rem;}
 
 
     /*---------------MAIN------------------*/
-main .weatherGallery figure image {
+    main .weatherGallery figure {
         flex-basis: 29%;
     }
     main div.weatherGallery figure:hover {
