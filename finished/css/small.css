@@ -110,6 +110,10 @@ main .weatherGallery {
 main .weatherGallery figure {
     flex-basis: 100%;
 }
+
+main .weatherGallery figure img {
+    width: 100%;
+}
 /*----------- FORM ------------------*/
 form {
     color: #10704e;
