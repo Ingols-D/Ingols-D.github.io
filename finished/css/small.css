@@ -109,7 +109,7 @@ main .weatherGallery {
 
 main .weatherGallery figure {
     flex-basis: 100%;
-    margin: 0;
+    margin: 1rem 2%;
 }
 
 main .weatherGallery figure img {
