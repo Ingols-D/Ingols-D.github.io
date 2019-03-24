@@ -136,7 +136,7 @@ main article img {float:right;width: 50vw; padding: 5px;}
 main div.weatherGallery figure {
         flex-basis: 45%;
     }
-main div.weatherGallery figure image {
+main div.weatherGallery figure img {
     flex-basis: 46%;}
 
 main div.weatherGallery figcaption {font-size: 1.5rem;}
