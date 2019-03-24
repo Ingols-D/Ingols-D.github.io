@@ -134,8 +134,11 @@ main .fiveday {
 main article img {float:right;width: 50vw; padding: 5px;}
 
 main div.weatherGallery figure {
-        flex-basis: 45%;
+        width: 45%;
     }
+main div.weatherGallery figure image {
+    width: 100%;
+}
 main div.weatherGallery figcaption {font-size: 1.5rem;}
 
 /*------------FOOTER------------*/
