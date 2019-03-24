@@ -100,6 +100,16 @@ main .curcon {display:none;}
 
 main .fiveday {display: none;}
 main .fiveday h2 {text-align: center;}
+
+/*------------ GALLERY --------------*/
+main .weatherGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .weatherGallery figure {
+    flex-basis: 100%;
+}
 /*----------- FORM ------------------*/
 form {
     color: #10704e;
