@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 
@@ -25,9 +25,9 @@ nav button {
 }
 
 nav {
-    background-color: rgb(255,195,0);
-    color: #6b706d;
-    font-family:"Merriweather Sans", Verdana, Tahoma, sans-serif;
+    background-color: #16897a;
+    color: #d8d8da;
+    font-family:"Abel", sans-serif;
 }
 nav ul {
     list-style-type: none;
