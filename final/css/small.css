@@ -19,10 +19,11 @@ header {
     color: #d8d8da;
     text-align: left;
 }
-h1 {font-size: 1.5rem;
+.logo {margin-left:2%;}
+.logo h1 {font-size: 1.5rem;
     text-align: left;
     }
-h2 {font-size: .75rem;
+.logo h2 {font-size: .75rem;
     font-style: initial;
     text-align: left;
     }
