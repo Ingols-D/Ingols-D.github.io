@@ -1,0 +1,76 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: rgb(72, 112, 88);
+}
+
+nav {
+    background-color: rgb(255,195,0);
+    color: #6b706d;
+    font-family:"Merriweather Sans", Verdana, Tahoma, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(72, 112, 88);
+    text-align: center;
+    border-top: 1px solid rgba(72,112,88,0.3);
+    transition: 2s;
+}
+
+nav ul li.active a {
+    background-color: rgba(72,112,88);
+    color: #fff;
+}
+nav ul li a:hover {
+    background-color: #10704e;
+    color: #fff;
+    }
+
+nav ul.hide{display: none;}
+/*----------- MAIN --------------*/
+ 
+
+
+ 
+
+
+
+
+/*----------- FOOTER --------------*/
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
