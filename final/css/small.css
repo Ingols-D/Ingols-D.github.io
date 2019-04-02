@@ -15,11 +15,13 @@ body {
 /*----------- HEADER --------------*/
 header {
     height: 75pt;
+    width: 100%;
     font-family: "Oleo Script", cursive;
-    background-color: #165f89;
+    background-color: #165f89;}
+span {
     color: #d8d8da;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
 }
 .logo {margin-left:2%;}
