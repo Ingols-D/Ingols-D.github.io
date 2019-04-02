@@ -42,7 +42,7 @@ nav ul li.active a {
 
 
 /*------------MAIN-----------*/
-main image {
+main figure img {
     float: right;
     width: 50vw;
     padding: 5px;
