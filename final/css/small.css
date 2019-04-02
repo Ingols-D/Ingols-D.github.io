@@ -22,11 +22,12 @@ header {
 .logo {margin-left:2%;}
 .logo h1 {font-size: 1.5rem;
     text-align: left;
+    padding-bottom: 0%;
     }
 .logo h2 {font-size: .75rem;
     font-style: initial;
     text-align: left;
-    padding-top: 0;
+    padding-top: 0%;
     }
 
 /*----------- NAVIGATION --------------*/
