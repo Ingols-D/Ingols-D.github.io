@@ -42,7 +42,11 @@ nav ul li.active a {
 
 
 /*------------MAIN-----------*/
-
+main section.feature image {
+    float: right;
+    width: 50vw;
+    padding: 5px;
+}
 
 /*------------FOOTER------------*/
 
