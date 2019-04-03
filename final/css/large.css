@@ -8,12 +8,12 @@
     /*----------------HEADER----------------*/
     header img {
         width: 125px;
-        margin-left: 20vw;
-        margin-right: 0;
+        margin-left: 20%;
+        margin-right: 0%;
     }
     header h1 {
         font-size: 3rem;
-        margin-left: 0;
+        margin-left: 0%;
         }
     header h2 {
         font-size: 2rem;
