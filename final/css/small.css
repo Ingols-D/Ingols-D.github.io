@@ -16,8 +16,7 @@ body {
 header {
     padding: .2rem 2%;
     background-color: #165f89;
-    display: grid;
-    grid-template-columns: 90px auto;
+    
 }
 
 header img {
