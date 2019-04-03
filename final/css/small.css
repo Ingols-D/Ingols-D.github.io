@@ -17,7 +17,7 @@ header {
     padding: .2rem 2%;
     background-color: #165f89;
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 90px auto;
 }
 
 header img {
@@ -25,8 +25,8 @@ header img {
     margin-top: 7px;
     margin-right: 5px;
     margin-bottom: 4px;
-    margin-left: 25px;
-    width: 60px;
+    margin-left: 20px;
+    width: 55px;
     }
 header h1 {
     font-family: "Oleo script", cursive;
