@@ -4,9 +4,7 @@
 /*-----------BODY-------------*/
 
 /*----------HEADER-----------*/
-header{
-    grid-column: 200px, auto;
-}
+
 header img {
     float: right;
     width: 100px;

@@ -6,7 +6,10 @@
 
 
     /*----------------HEADER----------------*/
-    
+    header img {
+        width: 150px;
+        margin-right: 10%;
+    }
 
 
     /*----------------NAVIGATION------------*/
