@@ -54,6 +54,18 @@ header h1 {
       text-align: left;
       margin-top: 0%;}
 
+  form input.submitBtn {
+        border: none;
+        background-color: #16897a;
+        font-family: "Abel", sans-serif;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 1rem 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
+    }
+    
 /*----------- NAVIGATION --------------*/
 nav button {
     margin: .2rem 2%;
