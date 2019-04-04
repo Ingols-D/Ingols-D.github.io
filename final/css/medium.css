@@ -18,7 +18,9 @@ header h2 {
     font-size: 1.75rem; 
     padding-bottom: .5rem; 
     text-align: left;}
-
+header .submitBtn {
+    float: right;
+}
 
 
 /*-----------NAVIGATION----------*/
