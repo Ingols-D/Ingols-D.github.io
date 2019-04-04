@@ -54,7 +54,7 @@ header h1 {
       text-align: left;
       margin-top: 0%;}
 
-  form input.submitBtn {
+  header .submitBtn {
         border: none;
         background-color: #16897a;
         font-family: "Abel", sans-serif;
