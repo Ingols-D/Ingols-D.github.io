@@ -58,11 +58,12 @@ header h1 {
         border: none;
         background-color: #16897a;
         font-family: "Abel", sans-serif;
+        font-style: bold;
         font-size: 1.25rem;
-        color: white;
+        color: #162689;
         border-radius: 1rem;
         padding: .75rem 1.5rem;
-        margin: 3rem 0 2rem 2%;
+        margin: 1rem 4% 2rem 2%;
         width: 96%;
         max-width: 20rem;
     }
