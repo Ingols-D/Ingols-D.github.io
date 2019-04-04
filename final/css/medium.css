@@ -6,6 +6,7 @@
 /*----------HEADER-----------*/
 
 header img {
+    flex-basis: 25%;
     float: left;
     width: 100px;
     margin-left: 50px;}
@@ -19,7 +20,7 @@ header h2 {
     padding-bottom: .5rem; 
     text-align: left;}
 header .submitBtn {
-    float: right;
+    flex-basis: 30%;
 }
 
 
