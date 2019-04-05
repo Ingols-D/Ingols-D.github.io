@@ -68,7 +68,7 @@ nav ul li a {
     color: rgb(72, 112, 88);
     text-align: center;
     border-top: 1px solid rgba(72,112,88,0.3);
-    transition: 2s;
+    transition: 1s;
 }
 
 nav ul li.active a {
@@ -76,7 +76,7 @@ nav ul li.active a {
     color: #fff;
 }
 nav ul li a:hover {
-    background-color: #10704e;
+    background-color: rgba(22, 137, 122, 0.3);
     color: #fff;
     }
 
