@@ -28,15 +28,14 @@ nav ul.hide {display: block;}
 
 nav ul {margin-left: 0px;
     height: 62px; 
-    background-color: #ffc300;
-    border-right: 1px solid rgb(20,90,50);   
+    background-color: #d8d8da;
+    border-right: 1px solid #162689;   
 }
 nav ul li{
     float: left; 
-    width: 16.6%;
-    background-color: #ffc300;
+    width: 14%;
     height: 62px;
-    border-right: 1px solid rgb(20,90,50);
+    color: #165f89;
 }
 
 nav ul li a {
@@ -45,7 +44,9 @@ nav ul li a {
     font-size: 1rem;}
 
 nav ul li.active a {
-    height: 62px;}
+    height: 62px;
+    background-color: #16897a;
+}
 
 
 /*------------MAIN-----------*/
