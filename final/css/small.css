@@ -18,13 +18,15 @@ header {
     background-color: #165f89;
     }
 
-header img {
+header .temple img {
     float: center;
     width: 96%;
     margin: 1%;
     }
 
   header .bookBtn {
+        display: flex; 
+        justify-content: center;
         border: none;
         background-color: #16897a;
         font-family: "Abel", sans-serif;
