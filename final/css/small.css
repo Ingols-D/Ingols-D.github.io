@@ -92,6 +92,17 @@ nav ul.hide{display: none;}
 
 
 /*----------- FOOTER --------------*/
+div.row {border-top: 8px solid #165f89;}
+div.row section {padding: 0 2%;}
+div.row section h3 {margin-bottom: 0%}
+div.row section:nth-child(1) {margin-top: 0%; font-family: "Oleo Script"; color: #162689;}
+div.row section:nth-child(2) {font-family: "Oleo Script"; color:#162689;}
+div.row section:nth-child(3){
+    background-color: #d8d8da; 
+    color:#16897a;;
+    text-align: center;
+    height: 2rem;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/

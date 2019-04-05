@@ -57,5 +57,11 @@ main figure img {
 }
 
 /*------------FOOTER------------*/
+footer {clear:both;}
+div.row {border-top: 8px solid #165f89; }
+div.row section:nth-child(1) {width: 50%;float: left;}
+div.row section:nth-child(2) {width: 50%;float: left;}
+div.row section:nth-child(3) {clear: both;float: bottom;}
+}
 
 /*end of media query*/

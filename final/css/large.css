@@ -28,6 +28,13 @@
 
 
     /*----------------FOOTER------------------*/
-
+    div.row section:nth-child(1) {
+        font-family: "Oleo Script"; 
+        font-size: 1.5rem;
+        color: #162689;}
+    div.row section:nth-child(2) {
+        font-family: "Oleo Script"; 
+        font-size: 1.25rem;
+        color:#162689;}
 
 } /* end of media query */
