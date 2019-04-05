@@ -18,9 +18,10 @@ header {
     background-color: #165f89;
     }
 
-header .temple img {
+header img {
     float: center;
     width: 96%;
+    max-height: 100px;
     margin: 1%;
     }
 
