@@ -20,7 +20,7 @@ header {
 
 header img {
     float: center;
-    width: 75%;
+    width: 96%;
     margin: 1%;
     }
 
@@ -32,8 +32,8 @@ header img {
         font-size: 1.25rem;
         color: #162689;
         border-radius: 1rem;
-        padding: .75rem 1.5rem;
-        margin: 1rem 4% 2rem 2%;
+        padding: .5rem 1rem;
+        margin: 3%;
         width: 96%;
         max-width: 20rem;
     }
