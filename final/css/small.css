@@ -88,6 +88,7 @@ nav ul.hide{display: none;}
 main h1 {
      font-family: "Oleo Script", serif; margin: 2%;
      color: #162689;}
+
 main h2 {font-family: "Oleo Script", serif;
      color: #162689;
      text-align: center;
@@ -98,18 +99,17 @@ main h2 {font-family: "Oleo Script", serif;
      1px 1px 0 #d8d8da;}
 
  main figure.oakland {
-     display: flex;
-     flex-wrap: wrap;
      width: 85vw; 
      border: 5px solid #16897a;
      margin: 1%;
+     margin-left: auto;
+     margin-right: auto;
      }
 
  main figure.oakland img {
-     flex-basis: 100%;
      width: 100%;
  }
- main figcaption {text-align:center;} 
+ main figcaption {text-align:center; font-size: 1.2rem;} 
 
  main p {font-family: "Abel", sans-serif; padding: 15px;}
 
