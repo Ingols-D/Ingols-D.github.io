@@ -84,20 +84,34 @@ nav ul li a:hover {
 
 nav ul.hide{display: none;}
 /*----------- MAIN --------------*/
-main {margin: 2%;} 
+
 main h1 {
      font-family: "Oleo Script", serif; margin: 2%;
      color: #162689;}
+main h2 {font-family: "Oleo Script", serif;
+     color: #162689;
+     text-align: center;
+     text-shadow:
+     -1px -1px 0 #d8d8da,
+     1px -1px 0 #d8d8da,
+     -1px 1px 0 #d8d8da,
+     1px 1px 0 #d8d8da;}
 
  main figure.oakland {
+     display: flex;
+     flex-wrap: wrap;
      width: 85vw; 
-     border: 5px solid #16897a;}
+     border: 5px solid #16897a;
+     margin: 1%;
+     }
 
- main figure.oakland image {
-     width: 96vw;
+ main figure.oakland img {
+     flex-basis: 100%;
+     width: 100%;
  }
+ main figcaption {text-align:center;} 
 
- main p {font-family: "Abel", sans-serif; padding: 5px;}
+ main p {font-family: "Abel", sans-serif; padding: 15px;}
 
  
 
