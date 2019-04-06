@@ -84,8 +84,19 @@ nav ul li a:hover {
 
 nav ul.hide{display: none;}
 /*----------- MAIN --------------*/
- 
+ main h1 {
+     font-family: "Oleo Script", serif; margin: 2%;
+     color: #162689;}
 
+ main .feature figure {
+     width: 100%; 
+     max-width: 450px;
+     border: 5px solid #16897a;}
+
+ main .feature figure img {
+     width: 100%;
+     max-width: 450 px;
+ }
 
  
 
