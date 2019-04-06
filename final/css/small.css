@@ -84,19 +84,20 @@ nav ul li a:hover {
 
 nav ul.hide{display: none;}
 /*----------- MAIN --------------*/
- main h1 {
+main {margin: 2%;} 
+main h1 {
      font-family: "Oleo Script", serif; margin: 2%;
      color: #162689;}
 
- main .feature figure {
-     width: 100%; 
-     max-width: 450px;
+ main figure.oakland {
+     width: 85vw; 
      border: 5px solid #16897a;}
 
- main .feature figure img {
-     width: 100%;
-     max-width: 450 px;
+ main figure.oakland image {
+     width: 96vw;
  }
+
+ main p {font-family: "Abel", sans-serif; padding: 5px;}
 
  
 
