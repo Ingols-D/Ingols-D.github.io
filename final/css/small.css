@@ -21,7 +21,7 @@ header {
 
 header .temple img {
     float: center;
-    width: 96%;
+    width: 80%;
     max-height: 100px;
     margin: 1%;
     background-color: transparent;
@@ -84,7 +84,7 @@ nav ul li a:hover {
     }
 
 nav ul.hide{display: none;}
-/*----------- MAIN --------------*/
+/*----------- MAIN HOME--------------*/
 
 main h1 {
      font-family: "Oleo Script", serif; margin: 2%;
@@ -114,6 +114,11 @@ main h2 {font-family: "Oleo Script", serif;
 
  main p {font-family: "Abel", sans-serif; padding: 15px;}
 
+ /*-----------MAIN ABOUT US------------*/
+ main article.olive img {
+     width: 50vw;
+     float: left;
+ }
  
 
 

@@ -6,9 +6,9 @@
 
 
     /*----------------HEADER----------------*/
-    header img {
-        width: 50vw;
-        max-width: 650px;
+    header .temple img {
+        width:25vw;
+  
     }
     header .bookBtn {
         margin: 2% 2% 3% 3%;

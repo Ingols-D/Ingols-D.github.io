@@ -4,9 +4,10 @@
 /*-----------BODY-------------*/
 
 /*----------HEADER-----------*/
+header {padding: 2%;}
 
-header img {
-    width: 70vw;
+header .temple img {
+    width: 30vw;
     max-height: 100px;
     margin: 0%;
     float:left;
