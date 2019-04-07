@@ -16,7 +16,7 @@ header .bookBtn {
     width: 20vw;
     max-height: 50px;
     float: right;
-    margin: 4% 2% 3% 3%;
+    margin-right: 2%;
 }
 
 
@@ -50,11 +50,20 @@ nav ul li.active a {
 
 
 /*------------MAIN-----------*/
-main figure img {
-    float: left;
-    width: 50vw;
-    padding: 5px;
+main h1 {font-size: 3rem;}
+main h2 {font-size: 2.5rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
+main figure.oakland {
+    width: 45vw;
+    float: right;
+    margin: 1rem 10px .25rem 0;
+ }
+main figcaption {font-size: 2rem;}
+
+main p {margin: 0 1% 0 2%;
+     padding-right: .25rem;}
 
 /*------------FOOTER------------*/
 footer {clear:both;}

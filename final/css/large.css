@@ -24,7 +24,20 @@
 
 
     /*---------------MAIN------------------*/
-
+    main h1 {font-size: 3.5rem;
+    }
+    main h2 {font-size: 3rem;
+    }
+    main figure.oakland {
+        width: 45vw;
+        float: right;
+        margin: 1rem 10px .25rem 0;
+     }
+    main figcaption {font-size: 2.5rem;}
+    
+    main p {margin: 0 1% 0 2%;
+        padding-right: .25rem;
+        font-size: 1.2rem;}
 
 
     /*----------------FOOTER------------------*/
