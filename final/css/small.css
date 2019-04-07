@@ -19,11 +19,12 @@ header {
     text-align: center;
     }
 
-header img {
+header .temple img {
     float: center;
     width: 96%;
     max-height: 100px;
     margin: 1%;
+    background-color: transparent;
     }
 
   header .bookBtn {
