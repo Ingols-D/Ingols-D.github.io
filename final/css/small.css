@@ -116,8 +116,9 @@ main h2 {font-family: "Oleo Script", serif;
 
  /*-----------MAIN ABOUT US------------*/
  main article.olive img {
-     width: 50vw;
+     width: 100px;
      float: left;
+     margin: 2%;
  }
  
 
