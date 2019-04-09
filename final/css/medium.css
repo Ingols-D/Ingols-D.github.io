@@ -47,8 +47,9 @@ nav ul li a {
 nav ul li.active a {
     height: 50px;
     background-color: #16897a;
+    padding: .5rem 0 .25rem 0;
 }
-
+nav ul li a:hover {height: 50px;}
 
 /*------------MAIN-----------*/
 main h1 {font-size: 3rem;}
@@ -65,6 +66,10 @@ main figcaption {font-size: 2rem;}
 
 main p {margin: 0 1% 0 2%;
      padding-right: .25rem;}
+
+/* ----------MAIN FORM ------------*/
+form legend { font-size: 1.75rem;}
+form fieldset {margin: 2%;}
 
 /*------------FOOTER------------*/
 footer {clear:both;}
