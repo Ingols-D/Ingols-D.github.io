@@ -57,7 +57,36 @@
 <!--CONTENT HERE-->
 <main>
 <h1>Reservations</h1>
-
+<h2>For Hotel Guests</h2>
+<form method="GET" action="thanks.html">
+    <fieldset>
+       <legend>Guest Information</legend>
+        <label class=top>Full Name*<input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
+        <label class=top>Number of Guests<input type="number" name="noguests" placeholder="2" required></label>
+        <label class=top>Email*<input type="email" name="email" placeholder="email@server.com" required></label>
+        <label class=top>Phone Number*<input type="tel" name="phone" placeholder="2055551234"required></label>
+    </fieldset>
+    <fieldset>
+        <legend>Dates</legend>
+        <label class="top">Check In<input type="date"name="chIn"></label>
+        <label class="top">Check Out<input type="date"name="chOut"></label>
+    </fieldset>
+<form method="GET" action="thanks.html">
+        <fieldset>
+           <legend>Payment Information</legend>
+            <label class="top">Credit Card Type
+                <select name="ccType">
+                    <option value="">Please Select &#9662;</option>
+                 <option value="visa">Visa</option>
+                 <option value="mastercard">Master Card</option>
+                 <option value="amex">American Express</option>
+                 <option value="discover">Discover</option>
+                </select>
+            </label>
+            <label class=top>Card Number<input type="number" name="ccCard" placeholder="123412341231234" required></label>
+            <label class=top>CVC Code<input type="number" name="cvc" placeholder="012" required></label>
+            <label class=top>Expiration Date<input type="number" name="expDate" placeholder="0419"required></label>
+        </fieldset>
 
 
 </main>
