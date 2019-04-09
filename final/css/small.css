@@ -129,7 +129,7 @@ main div.map {
     margin-bottom: 1%;
 }
 
-/*------------ RESERVATIONS ------------*/
+/*------------ MAIN RESERVATIONS ------------*/
 form legend {
     font-family: "Oleo Script", serif;
     color: #16897a;
@@ -140,6 +140,9 @@ form fieldset{
     border: 2px solid #162689;
     border-radius: 10px;
     padding: .5rem 2%;
+}
+form fieldset div.location{
+    font-size: 1.5rem;
 }
 form label.top, form div {
     display: block;

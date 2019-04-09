@@ -61,6 +61,16 @@
 <h2>For Hotel Guests</h2>
 <form method="GET" action="thanks.html">
     <fieldset>
+       <legend>Where Shall You Stay?</legend>
+       <div class="location">Choose the location:</div>
+       <label class="sbs"><input type="radio" name="locale" value="bismark">Bismark, ND </label>
+       <label class="sbs"><input type="radio" name="locale" value="columbia">Columbia, SC </label>
+       <label class="sbs"><input type="radio" name="locale" value="lubback">Lubback, TX </label>
+       <label class="sbs"><input type="radio" name="locale" value="oakland">Oakland, CA </label>
+       <label class="sbs"><input type="radio" name="locale" value="fortcollins">Fort Collins, CO </label>
+       <label class="sbs"><input type="radio" name="locale" value="detroit">Detroit, MI </label>
+    </fieldset>
+    <fieldset>
        <legend>Guest Information</legend>
         <label class=top>Full Name <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
         <label class=top>Number of Guests <input type="number" name="noguests" placeholder="2" required></label>
