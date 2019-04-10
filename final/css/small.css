@@ -186,7 +186,33 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
-
+/* ---------- MAIN LONGTERMSTAY ---------- */
+main h3 {
+    margin: 2%;
+    font-style: italic;
+    }
+main figure.suite {
+    width: 85vw; 
+    border: 5px solid #16897a;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+        }
+main figure.suite img {
+    width: 100%;
+}
+main figure.layout {
+    width: 85vw; 
+    border: 5px solid #16897a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+        }
+main figure.layout img{
+    width: 100%;
+}
+main figcaption {float: center;}
+main form fieldset {display: block;}
 /*----------- FOOTER --------------*/
 div.row {border-top: 8px solid #165f89;}
 div.row section {padding: 0 2%;}
