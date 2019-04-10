@@ -70,7 +70,8 @@ main p {margin: 0 1% 0 2%;
 /* ----------MAIN FORM ------------*/
 form legend { font-size: 1.75rem;}
 form fieldset {margin: 2%;}
-
+form fieldset label.sbs {padding: 30px;}
+form fieldset div.location {float:center;}
 /*------------FOOTER------------*/
 footer {clear:both;}
 div.row {border-top: 8px solid #165f89; }

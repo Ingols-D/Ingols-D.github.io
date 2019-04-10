@@ -136,13 +136,21 @@ form legend {
     font-size: 1.5rem;
 }
 form fieldset{
-    margin: 2rem 0;
+    margin: 2%;
     border: 2px solid #162689;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form fieldset div.location{
+    display: block;
     font-size: 1.5rem;
+    float: center;
+}
+form fieldset label.sbs{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.25rem;
+    float: left;
 }
 form label.top, form div {
     display: block;
