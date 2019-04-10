@@ -2,10 +2,14 @@
 @media only screen and (min-width: 64rem) {
 
 
-    /*----------------BODY-----------------*/
+/*----------------BODY-----------------*/
+body {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-    /*----------------HEADER----------------*/
+/*----------------HEADER----------------*/
     header .temple img {
         width:25vw;
   
@@ -14,7 +18,7 @@
         margin: 2% 2% 3% 3%;
     }
 
-    /*----------------NAVIGATION------------*/
+/*----------------NAVIGATION------------*/
     nav ul li {
         padding: 0rem 1rem;
         height: 50px;
@@ -24,7 +28,7 @@
         font-size: 1.5rem;}
     nav ul li.active a {padding:0;}
 
-    /*---------------MAIN------------------*/
+/*---------------MAIN------------------*/
     main h1 {font-size: 3.5rem;
     }
     main h2 {font-size: 3rem;
@@ -41,9 +45,33 @@
         font-size: 1.2rem;}
 
     form legend {font-size: 2rem;}
-   
+/* ---------------MAIN MISSIONARIES -------------*/
+    main figure.branch p {
+        font-size: 2rem;
+    }
+    main figure.branch img{
+        width: 8vw;
+    }
+    main figure.suite {
+        width: 44vw;
+        margin-left: 2%;
+        float: left;
+        max-width: 6500px;
+    }
+    main figure.suite img {
+        width: 100%;
+}
+    main figure.layout {
+        width: 39vw;
+        margin: 1% 2% 2% 2%;
+        max-width: 650px;
+        float: right;
+}
+    main figure.layout img {
+        width: 100%;
+}
 
-    /*----------------FOOTER------------------*/
+/*----------------FOOTER------------------*/
     div.row section:nth-child(1) {
         font-family: "Oleo Script"; 
         font-size: 1.5rem;

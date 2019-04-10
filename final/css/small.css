@@ -191,6 +191,14 @@ main h3 {
     margin: 2%;
     font-style: italic;
     }
+main figure.branch {
+    margin-left: 2%;
+}
+main figure.branch img {
+    width: 15vw;
+    float: left;
+    padding: 5px;
+}
 main figure.suite {
     width: 85vw; 
     border: 5px solid #16897a;
@@ -207,12 +215,33 @@ main figure.layout {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-        }
+}
 main figure.layout img{
     width: 100%;
 }
 main figcaption {float: center;}
-main form fieldset {display: block;}
+main .quarters form fieldset {display: block; float: left;}
+main div.quarters {
+    display:block;
+    float: left;
+    width: 98%;
+    margin-right: 2%;
+}
+main div.quarters form fieldset {
+    margin-right: 2%;
+    width: 98%;
+}
+main div.quarters input.submitBtn {
+    border: none;
+    background-color: rgba(22, 137, 122, 50);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
 /*----------- FOOTER --------------*/
 div.row {border-top: 8px solid #165f89;}
 div.row section {padding: 0 2%;}

@@ -74,23 +74,10 @@ form fieldset label.sbs {padding: 30px;}
 form fieldset div.location {float:center;}
 
 /* --------- MAIN LONGTERMSTAY ---------*/
-main figure.suite {
-    width: 47vw;
-    float: left; 
-    margin-left: 2%;}
-main figure.suite img {
-    width: 100%;
-    max-width: 500px;
+main figure.branch p {
+    font-size: 1.5rem;
 }
-main figure.layout {
-    width: 42vw;
-    margin: 2%;
-    float: right;
-}
-main figure.layout img {
-    widows: 100%;
-    max-width: 500px;
-}
+
 
 /*------------FOOTER------------*/
 footer {clear:both;}

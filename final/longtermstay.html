@@ -55,9 +55,19 @@
     </ul>
 </nav>
 <!--CONTENT HERE-->
-<main>
+<main class="clearfix">
 <h1>Missionaries</h1>
 <h3>Facilities may be limited and are provided on a first-come first-serve basis.</h3>
+<div>
+    <figure class="branch">
+        <img src="images/olivebranch.jpg" alt="olive branch">
+    <p>Missionary suites are roomy enough to provide all the necessities and comfortable enough to
+        allow you to enjoy your down-time. Rooms come furnished including cooking equipment and dishes. 
+        Basic maid service is provided weekly which includes fresh bed linens and towels. Breakfast is inlcuded
+        Monday thru Saturday.
+    </p>
+</figure>
+</div>
 <div>
     <figure class="suite">
         <img src="images/caresuites1.jpg" alt="suite" sizes="96vw"
@@ -71,14 +81,14 @@
         <figcaption>Suite Layout</figcaption>
     </figure>
 </div>
-<div>
-<form class="clearset">
+<div class="quarters">
+<form method="GET" action="thanks.html">
 <fieldset>
     <legend>Temple Missionaries</legend>
-     <label class=top>Elder <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
-     <label class=top>Sister <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
-     <label class=top>Email <input type="email" name="email" placeholder="email@server.com" required></label>
-     <label class=top>Phone Number <input type="tel" name="phone" placeholder="2055551234"required></label>
+     <label class="top">Elder <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
+     <label class="top">Sister <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
+     <label class="top">Email <input type="email" name="email" placeholder="email@server.com" required></label>
+     <label class="top">Phone Number <input type="tel" name="phone" placeholder="2055551234"required></label>
  </fieldset>
  
  <fieldset>
@@ -87,7 +97,9 @@
      <label class="top">Projected Release Date <input type="date"name="chOut"></label>
  </fieldset>
 </form>
+<input type="submit" value="BOOK NOW" class="submitBtn">
 </div>
+
 </main>
 
 <!--FOOTER-->
