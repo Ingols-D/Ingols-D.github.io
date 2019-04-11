@@ -256,6 +256,16 @@ main .servicePix figure {
 main .servicePix figure img {
     width: 100%;
 }
+main div.special input.submitBtn {
+    border: none;
+    background-color: rgba(22, 137, 122, 50);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    }
 /*----------- FOOTER --------------*/
 div.row {border-top: 8px solid #165f89;}
 div.row section {padding: 0 2%;}
