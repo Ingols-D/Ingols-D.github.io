@@ -34,7 +34,7 @@ nav ul {margin-left: 0px;
 }
 nav ul li{
     float: left; 
-    width: 14.15%;
+    width: 16.25%;
     height: 50px;
     color: #165f89;
 }
@@ -73,12 +73,22 @@ form fieldset {margin: 2%;}
 form fieldset label.sbs {padding: 30px;}
 form fieldset div.location {float:center;}
 
-/* --------- MAIN LONGTERMSTAY ---------*/
-main figure.branch p {
+/* --------- MAIN MISSIONARIES ---------*/
+main div figure.branch p {
     font-size: 1.5rem;
+    padding: 10px;
+    text-align: justify;
+}
+main div figure.branch img {
+    padding: 5px;
 }
 
+/*-------------SPECIAL SERVICES -------------*/
+main .servicePix figure {
+    flex-basis: 45%;
+}
 
+main .servicePix figcaption {font-size: 1.5rem;}
 /*------------FOOTER------------*/
 footer {clear:both;}
 div.row {border-top: 8px solid #165f89; }

@@ -49,19 +49,80 @@
     <ul id="primaryNav" class="hide">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
         <li><a href="reservations.html">Reservations</a></li>
         <li class="active"><a href="specialservices.html">Special Services</a></li>
-        <li><a href="longtermstay.html">Missionaries</a></li>
-        <li><a href="reception.html">Receptions</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="missionaries.html">Missionaries</a></li>
     </ul>
 </nav>
 <!--CONTENT HERE-->
 <main>
 <h1>Special Services</h1>
-
-
-
+<div>
+    <figure class="branch">
+        <img src="images/olivebranch.jpg" alt="olive branch">
+    <p>Temple Inn and Suites takes seriously the needs of travelers coming to the Temple. We recognize that for 
+        many of our guests the destination is the smallest portion of their journey. We are anxious to be of service 
+        to families and individuals as well as youth groups. 
+    </p>
+    <p>For families and individuals who may be traveling far, but will be making a return trip right after their
+        temple service, we are pleased to offer few helpful services. Lockers can be reserved, short-term child-care 
+       is available, and sack-lunch catering is available for the trek home. RV parking is available upon request.
+    </p>
+    <p>Youth temple trips can make a lasting impact in the lives of the rising generation. We offer bus parking, use 
+        of lockers and locker rooms for changing in and out of Sunday Best. Sack-lunch catering will provide your group
+         with the refreshment needed for the trip home. We even have bunk rooms if a single night stay is necessary. 
+         Chaperones must be provided by the group and must stay in the bunk room with the youth.</p> 
+    <p>Temple Inn & Suites even offers receptions in a beautiful ballroom! You can choose to use our in-house catering 
+        or bring in your own. </p>
+    <p>Special Services require a bit more planning. Let one of our Service Experts help make the best of your temple 
+        trips.</p>
+</figure>
+</div>
+<div>
+    <form>
+        <fieldset>
+            <legend>Let Us Help</legend>
+            <label class="top">Type of Group<select name="groupType">
+                        <option value="">Please Select &#9662;</option>
+                     <option value="family">Individuals & Families</option>
+                     <option value="youthgroup">Youth Group</option>
+                     <option value="Reception">Reception</option>
+                    </select>
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Which Location?</legend>
+              <div class="location">Choose the location:</div>
+                <label class="sbs"><input type="radio" name="locale" value="bismark">Bismark, ND </label>
+                <label class="sbs"><input type="radio" name="locale" value="columbia">Columbia, SC </label>
+                <label class="sbs"><input type="radio" name="locale" value="lubback">Lubback, TX </label>
+                <label class="sbs"><input type="radio" name="locale" value="oakland">Oakland, CA </label>
+                <label class="sbs"><input type="radio" name="locale" value="fortcollins">Fort Collins, CO </label>
+                <label class="sbs"><input type="radio" name="locale" value="detroit">Detroit, MI </label>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Person Information</legend>
+                <label class=top>Full Name <input type="text" name="fname" placeholder="Firstname Lastname" required pattern="[A-Za-z].{5,}" ></label>
+                <label class=top>Number of Guests <input type="number" name="noguests" placeholder="2" required></label>
+                <label class=top>Email <input type="email" name="email" placeholder="email@server.com" required></label>
+                <label class=top>Phone Number <input type="tel" name="phone" placeholder="2055551234"required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Date(s) of Interest</legend>
+                <label class="top">Check In <input type="date"name="chIn"></label>
+                <label class="top">Check Out <input type="date"name="chOut"></label>
+        </fieldset>
+    </form>
+</div>
+<div class="servicePix">
+        <figure><img src="images/bunkhouse.jpg" alt="bunkhouse"><figcaption>Ft. Collins, Bunk Room</figcaption></figure>
+        <figure><img src="images/childcare.jpg" alt="childcare"><figcaption>Columbia, Child Care</figcaption></figure>
+        <figure><img src="images/lockers.jpg" alt="lockerroom"><figcaption>Detroit, Locker Room</figcaption></figure>
+        <figure><img src="images/parking.jpg" alt="parking"><figcaption>Bismark, Bus and RV Parking</figcaption></figure>
+        <figure><img src="images/reception.jpg" alt="reception"><figcaption>Lubbock, Reception Room</figcaption></figure>
+        <figure><img src="images/lunch.jpg" alt="lunch"><figcaption>Oakland, Sack Lunch</figcaption></figure>
+     </div>
 </main>
 
 <!--FOOTER-->

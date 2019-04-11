@@ -46,31 +46,35 @@ body {
 
     form legend {font-size: 2rem;}
 /* ---------------MAIN MISSIONARIES -------------*/
-    main figure.branch p {
+    main div figure.branch p {
         font-size: 2rem;
     }
-    main figure.branch img{
-        width: 8vw;
+    main div figure.branch img{
+        width: 7vw;
     }
-    main figure.suite {
-        width: 44vw;
+    main div figure.suite {
+        width: 35vw;
         margin-left: 2%;
         float: left;
         max-width: 6500px;
     }
-    main figure.suite img {
+    main div figure.suite img {
         width: 100%;
 }
-    main figure.layout {
-        width: 39vw;
+    main div figure.layout {
+        width: 33vw;
         margin: 1% 2% 2% 2%;
         max-width: 650px;
         float: right;
 }
-    main figure.layout img {
+    main div figure.layout img {
         width: 100%;
 }
 
+/*--------------SPECIAL SERVICES ------------------*/
+main .servicePix figure {
+    flex-basis: 29%;
+}
 /*----------------FOOTER------------------*/
     div.row section:nth-child(1) {
         font-family: "Oleo Script"; 

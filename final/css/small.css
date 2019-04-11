@@ -186,13 +186,14 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
-/* ---------- MAIN LONGTERMSTAY ---------- */
+/* ---------- MAIN MISSIONARIES ---------- */
 main h3 {
     margin: 2%;
     font-style: italic;
     }
 main figure.branch {
     margin-left: 2%;
+    margin-right: 2%;
 }
 main figure.branch img {
     width: 15vw;
@@ -241,7 +242,20 @@ main div.quarters input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+/*-------------- SPECIAL SERVICES ------------*/
+main .servicePix {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+main .servicePix figure {
+    flex-basis: 100%;
+    margin: 1rem 2%;
+}
+
+main .servicePix figure img {
+    width: 100%;
+}
 /*----------- FOOTER --------------*/
 div.row {border-top: 8px solid #165f89;}
 div.row section {padding: 0 2%;}
