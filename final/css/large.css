@@ -14,8 +14,10 @@ body {
         width:25vw;
   
     }
-    header .bookBtn {
+    header div.column input.bookBtn {
         margin: 2% 2% 3% 3%;
+        font-size: 2rem;
+        font-weight: bold;
     }
 
 /*----------------NAVIGATION------------*/
@@ -36,24 +38,36 @@ body {
     main figure.oakland {
         width: 45vw;
         float: right;
-        margin: 1rem 10px .25rem 0;
+        margin: 2%;
      }
     main figcaption {font-size: 2.5rem;}
     
-    main p {margin: 0 1% 0 2%;
+    main article p {margin: 2%;
         padding-right: .25rem;
-        font-size: 1.2rem;}
+        font-size: 2rem;}
 
     form legend {font-size: 2rem;}
-/* ---------------MAIN MISSIONARIES -------------*/
+/*----------------- MAIN ABOUT US ----------------*/
+    main div article.olive p {
+        font-size: 2rem;
+    }
+    main p {
+        font-size: 2rem;
+        margin: 2%;
+    }
+    main div.map {
+        margin: 2%;
+    }
+    /* ---------------MAIN MISSIONARIES -------------*/
     main div figure.branch p {
         font-size: 2rem;
     }
     main div figure.branch img{
         width: 7vw;
+        margin: 2%;
     }
     main div figure.suite {
-        width: 35vw;
+        width: 40vw;
         margin-left: 2%;
         float: left;
         max-width: 6500px;
@@ -62,7 +76,7 @@ body {
         width: 100%;
 }
     main div figure.layout {
-        width: 33vw;
+        width: 38vw;
         margin: 1% 2% 2% 2%;
         max-width: 650px;
         float: right;

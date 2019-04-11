@@ -16,31 +16,54 @@ body {
 header {
     padding: .2rem 2%;
     background-color: #165f89;
-    text-align: center;
+    display: flex;
+    height: 75pt;
+    justify-content: center;
     }
-
-header .temple img {
-    float: center;
-    width: 80%;
-    max-height: 100px;
-    margin: 1%;
-    background-color: transparent;
+header img {
+        width: 45px;
+        max-width: 62px;
+        margin: 1rem 2%;
+        background-color:#165f89;
+    } 
+header div.column h1 {
+    width: 150px;
+    font-family: "Oleo Script", serif;
+    font-size: 1.5rem;
+    color: #d8d8da;
+    text-align: left;
+     text-shadow:
+     -1px -1px 0 #16897a,
+     1px -1px 0 #16897a,
+     -1px 1px 0 #16897a,
+     1px 1px 0 #16897a;
+     margin-bottom: 0%;
     }
-
-  header .bookBtn {
-        display: block; 
+header div.column h2 {
+    font-family: "Oleo Script", serif;
+    font-size: 1rem;
+    color:  #16897a;
+    text-shadow:
+     -1px -1px 0 #d8d8da,
+     1px -1px 0 #d8d8da,
+     -1px 1px 0 #d8d8da,
+     1px 1px 0 #d8d8da;
+     margin-top: 0%;
+    }
+header div.column input.bookBtn {
         margin: 3% auto;
         border: none;
         background-color: #16897a;
         font-family: "Abel", sans-serif;
         font-style: bold;
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #162689;
         border-radius: 1rem;
-        padding: .5rem 1rem;
+        padding: .5rem 1rem; 
         padding-bottom: .5rem;
-        width: 96%;
-        max-width: 20rem;
+        float: right;
+
+
     }
     
 /*----------- NAVIGATION --------------*/
@@ -85,8 +108,8 @@ nav ul li a:hover {
     }
 
 nav ul.hide{display: none;}
-/*----------- MAIN HOME--------------*/
 
+/*----------- MAIN HOME--------------*/
 main h1 {
      font-family: "Oleo Script", serif; margin: 2%;
      color: #162689;}
@@ -111,9 +134,22 @@ main h2 {font-family: "Oleo Script", serif;
  main figure.oakland img {
      width: 100%;
  }
+ main div figure.california {
+    width: 85vw; 
+    border: 5px solid #16897a;
+    margin: 1%;
+    margin-left: auto;
+    margin-right: auto; 
+ }
+ main div figure.california img {
+     width: 100%;
+ }
  main figcaption {text-align:center; font-size: 1.2rem;} 
 
- main p {font-family: "Abel", sans-serif; padding: 15px;}
+ main article p {
+     font-family: "Abel", sans-serif; 
+     margin: 2%;
+     padding: 15px;}
 
  /*-----------MAIN ABOUT US------------*/
  main article.olive img {
@@ -243,17 +279,26 @@ main div.quarters input.submitBtn {
     max-width: 20rem;
 }
 /*-------------- SPECIAL SERVICES ------------*/
-main .servicePix {
+main div.ss figure.branch {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+main div.ss figure.branch img {
+    width: 15vw;
+    float: left;
+    padding: 5px;
+}
+main .ss .servicePix {
     display: flex;
     flex-wrap: wrap;
 }
 
-main .servicePix figure {
+main .ss .servicePix figure {
     flex-basis: 100%;
     margin: 1rem 2%;
 }
 
-main .servicePix figure img {
+main .ss .servicePix figure img {
     width: 100%;
 }
 main div.special input.submitBtn {
