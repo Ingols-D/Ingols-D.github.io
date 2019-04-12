@@ -313,12 +313,9 @@ main div.special input.submitBtn {
     }
 
 /* ----------- GALLERY MAIN -------------*/
-#templedata {
+main div.gallery article.templedata {
     display: flex;
     flex-wrap: wrap;
-   }
-
-#templedata article {
     width: 300px;
     margin: .5rem 2%;
     padding: 5px;
