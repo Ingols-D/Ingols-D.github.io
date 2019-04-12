@@ -1,2 +1,2 @@
 var section = document.querySelector ('section');
-var request
+var requestURL="//ingols-d.github.io/finalJSON/temple.json";
