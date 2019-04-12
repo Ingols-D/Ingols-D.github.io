@@ -316,10 +316,13 @@ main div.special input.submitBtn {
 #templedata {
     display: flex;
     flex-wrap: wrap;
+}
+#templedata article {
     width: 300px;
     margin: .5rem 2%;
     padding: 5px;
     border: 6px solid #16897a;
+    border-radius: 10pt;
 }
 #templedata img {
     width: 100%
