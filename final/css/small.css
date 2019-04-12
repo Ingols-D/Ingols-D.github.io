@@ -313,29 +313,29 @@ main div.special input.submitBtn {
     }
 
 /* ----------- GALLERY MAIN -------------*/
-#templedata {
+.templedata {
     display: flex;
     flex-wrap: wrap;
 }
-#templedata article {
+.templedata article {
     width: 300px;
     margin: .5rem 2%;
     padding: 5px;
     border: 6px solid #16897a;
     border-radius: 10pt;
 }
-#templedata img {
+.templedata img {
     width: 100%
 }
-#templedata h2 {
+.templedata h2 {
     margin-top: 3pt;
     font-size: 1.75rem;
     text-align: center;
 }
-#templedata p {
+.templedata p {
     font-size: 1rem;
 }
-#templedata services {
+.templedata services {
     padding: 0%;
 }
 
