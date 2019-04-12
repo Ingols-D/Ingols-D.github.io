@@ -83,4 +83,4 @@ function showData(jsonObj) {
     section.appendChild(myArticle);    
         }
     }
-}
+
