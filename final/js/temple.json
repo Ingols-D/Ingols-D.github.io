@@ -54,10 +54,7 @@
                 "No patron housing", 
                 "No distribution center nearby"
             ],
-           "schedule": [
-                "Tue thru Sat 7:00pm",              
-                "All other times are by appointment. Please call"
-            ],
+           "schedule": "Tue thru Sat 7:00pm, all other times are by appointment. Please call",
             "closures": [
               "2019",
               "Tues May 7 thru Mon Jun 3",
@@ -80,10 +77,7 @@
                 "No patron housing", 
                 "No distribution center nearby"
             ],
-           "schedule": [
-                "Tue thru Sat 5:30pm and 7:00pm",              
-                "All other times are by appointment. Please call"
-            ],
+           "schedule": "Tue thru Sat 5:30pm and 7:00pm, all other times are by appointment. Please call",
             "closures": [
               "2019",
               "Thurs Jul 4",
@@ -105,10 +99,7 @@
                 "No patron housing", 
                 "No distribution center nearby"
             ],
-           "schedule": [
-                "Tue thru Sat 7:00pm",              
-                "All other times are by appointment. Please call"
-            ],
+           "schedule": "Tue thru Sat 7:00pm, all other times are by appointment. Please call",
             "closures": [
               "2019",
               "Thurs Jul 4",
