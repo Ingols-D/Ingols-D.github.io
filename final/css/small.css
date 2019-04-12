@@ -313,7 +313,7 @@ main div.special input.submitBtn {
     }
 
 /* ----------- GALLERY MAIN -------------*/
-main div.gallery article.templedata {
+#templedata {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
@@ -321,18 +321,18 @@ main div.gallery article.templedata {
     padding: 5px;
     border: 6px solid #16897a;
 }
+#templedata img {
+    width: 100%
+}
 #templedata h2 {
-    margin-top: 0;
-    font-size: 2rem;
+    margin-top: 3pt;
+    font-size: 1.75rem;
+    text-align: center;
+}
+#templedata p {
+    font-size: 1rem;
 }
 
-#templedata p {
-    font-style: italic;
-}
-#templedata article img {
-   display: flex;
-   width: 280px;
-}
 
 
 
