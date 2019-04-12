@@ -311,6 +311,34 @@ main div.special input.submitBtn {
     width: 96%;
     max-width: 20rem;
     }
+
+/* ----------- GALLERY MAIN -------------*/
+#templedata {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+#templedata article {
+    width: 300px;
+    margin: .5rem 2%;
+    padding: 5px;
+    border: 6px solid #ffc300;
+}
+#templedata h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+#templedata p {
+    font-style: italic;
+}
+#templedata article img {
+   display: flex;
+   width: 280px;
+}
+
+
+
 /*----------- FOOTER --------------*/
 div.row {border-top: 8px solid #165f89;}
 div.row section {padding: 0 2%;}
