@@ -86,8 +86,8 @@ body {
 }
 
 /*--------------SPECIAL SERVICES ------------------*/
-main .servicePix figure {
-    flex-basis: 29%;
+main div.servicePix figure {
+    flex-basis: 27%;
 }
 /*----------------FOOTER------------------*/
     div.row section:nth-child(1) {
