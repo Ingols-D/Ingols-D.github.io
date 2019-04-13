@@ -68,6 +68,8 @@ main h2 {font-size: 2.5rem;
 }
 main div.activities figure {
     flex-basis: 27%;
+    margin-left: auto;
+    margin-right: auto;
 }
 main figure.oakland {
     width: 45vw;
