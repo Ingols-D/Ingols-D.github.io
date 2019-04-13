@@ -307,17 +307,17 @@ main div.ss figure.branch img {
     float: left;
     padding: 5px;
 }
-main .ss .servicePix {
+main div.servicePix {
     display: flex;
     flex-wrap: wrap;
 }
 
-main .ss .servicePix figure {
+main div.servicePix figure {
     flex-basis: 100%;
     margin: 1rem 2%;
 }
 
-main .ss .servicePix figure img {
+main div.servicePix figure img {
     width: 100%;
 }
 main div.special input.submitBtn {
