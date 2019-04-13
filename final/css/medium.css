@@ -66,11 +66,8 @@ main h2 {font-size: 2.5rem;
     margin-bottom: 0%;
     margin-top: 0%;
 }
-main div.activities {
-    display: grid;
-    grid-template-rows: 25vw;
-    margin-left: auto;
-    margin-right: auto;
+main div.activities figure {
+    flex-basis: 27%;
 }
 main figure.oakland {
     width: 45vw;
