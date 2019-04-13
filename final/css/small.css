@@ -162,7 +162,11 @@ main div.activities figure {
 main div.activities figure img {
     width: 100%;
 }
-
+main div.branchRight img {
+    width: 10vw;
+    max-width: 50px;
+    float: right;
+}
  /*-----------MAIN ABOUT US------------*/
  main article.olive img {
      width: 100px;
