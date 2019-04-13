@@ -323,7 +323,6 @@ main div.special input.submitBtn {
     padding: 5px;
     border: 6px solid #16897a;
     border-radius: 10pt;
-    line-height: normal;
 }
 .templedata img {
     width: 100%
@@ -335,6 +334,7 @@ main div.special input.submitBtn {
 }
 .templedata p {
     font-size: 1rem;
+    line-height: normal;
 }
 .templedata li {
     padding: 0%;
