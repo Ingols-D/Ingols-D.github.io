@@ -152,8 +152,15 @@ main h2 {font-family: "Oleo Script", serif;
      padding: 15px;
 }
 main div.activities {
-    display: inline-grid;
-
+    display: flex;
+    flex-wrap: wrap;
+}
+main div.activities figure {
+    flex-basis: 100%;
+    margin: 1rem 2%;
+}
+main div.activities figure img {
+    width: 100%;
 }
 
  /*-----------MAIN ABOUT US------------*/
