@@ -171,6 +171,8 @@ main div figure.branchRight ul {
     font-size: 1.3rem;
 }
  /*-----------MAIN ABOUT US------------*/
+ main h1 {margin-left: 2%;}
+ main p {margin-left: 2%;}
  main article.olive img {
      width: 100px;
      float: left;
