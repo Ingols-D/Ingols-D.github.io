@@ -149,7 +149,12 @@ main h2 {font-family: "Oleo Script", serif;
  main article p {
      font-family: "Abel", sans-serif; 
      margin: 2%;
-     padding: 15px;}
+     padding: 15px;
+}
+main div.activities {
+    display: inline-grid;
+
+}
 
  /*-----------MAIN ABOUT US------------*/
  main article.olive img {
