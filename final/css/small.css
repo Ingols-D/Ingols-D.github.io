@@ -315,7 +315,6 @@ main div.servicePix {
 main div.servicePix figure {
     flex-basis: 100%;
     margin: 1rem 2%;
-    width: 96vw;
 }
 
 main div.servicePix figure img {

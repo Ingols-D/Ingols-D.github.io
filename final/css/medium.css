@@ -102,11 +102,10 @@ main div figure.branch img {
 }
 
 /*-------------SPECIAL SERVICES -------------*/
-main .servicePix figure {
+main div.servicePix figure {
     flex-basis: 45%;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
 }
 
 main .servicePix figcaption {font-size: 1.5rem;}
