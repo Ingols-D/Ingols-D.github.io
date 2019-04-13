@@ -89,9 +89,10 @@ main article p {margin: 2%;
      padding-right: .25rem;
      font-size: 1.25rem;
     }
-main article ul {
+main div ul.amenities {
     font-size: 1.5rem;
 }
+
 
 /* ----------MAIN FORM ------------*/
 form legend { font-size: 1.75rem;}
